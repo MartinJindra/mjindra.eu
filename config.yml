@@ -1,0 +1,12 @@
+baseURL: "https://derchef.site/"
+title: "derchef"
+theme: "PaperMod"
+
+languageCode: "en"
+relativeURLs: true
+
+params:
+  homeInfoParams:
+    Title: "derChef"
+    Content: >
+      Welcome to derChefs homepage
