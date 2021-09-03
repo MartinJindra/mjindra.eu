@@ -1,4 +1,4 @@
-baseURL: "https://derchef.site/"
+baseURL: "https://box.derchef.email/"
 title: "derchef"
 theme: "PaperMod"
 
@@ -7,6 +7,6 @@ relativeURLs: true
 
 params:
   homeInfoParams:
-    Title: "derChef"
+    Title: "derChef.site"
     Content: >
       Welcome to derChefs homepage
