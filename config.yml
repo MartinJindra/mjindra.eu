@@ -1,6 +1,9 @@
-baseURL: "https://box.derchef.email/"
+baseURL: "https://derchef.email/"
 title: "derchef"
 theme: "PaperMod"
+
+buildDrafts: false
+buildExpired: false
 
 languageCode: "en"
 relativeURLs: true
@@ -9,4 +12,6 @@ params:
   homeInfoParams:
     Title: "derChef.site"
     Content: >
-      Welcome to derChefs homepage
+      Welcome to the homepage of the derchef
+      
+      - Sourecode of this site [link](https://git.derchef.site/derchef/derchef.site)
