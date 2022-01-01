@@ -10,8 +10,19 @@ relativeURLs: true
 
 params:
   homeInfoParams:
+    enabled: true
     Title: "derChef.site"
+    subtitle: "Welcome to the homepage of the derchef"
     Content: >
-      Welcome to the homepage of the derchef
-      
+      #### Welcome to the homepage of the derchef
+
       - Sourecode of this site [link](https://git.derchef.site/derchef/derchef.site)
+  socialIcons:
+    - name: ""
+      url: "derchef.site"
+    - name: "Github"
+      url: "https://github.com/MartinJindra"
+    - name: "Gitlab"
+      url: "https://gitlab.com/derchef"
+    - name: "Gitea"
+      url: "https://git.derchef.site/derchef"
