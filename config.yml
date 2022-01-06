@@ -8,21 +8,41 @@ buildExpired: false
 languageCode: "en"
 relativeURLs: true
 
-params:
-  homeInfoParams:
-    enabled: true
-    Title: "derChef.site"
-    subtitle: "Welcome to the homepage of the derchef"
-    Content: >
-      #### Welcome to the homepage of the derchef
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+      - name: Services
+        url: services
+        weight: 5
+      - name: Blog
+        url: blog
+        weight: 5
 
-      - Sourecode of this site [link](https://git.derchef.site/derchef/derchef.site)
+params:
+
+  defaultTheme: dark
+  disableThemeToggle: true
+
+  profileMode:
+    enabled: true
+    title: "Welcome"
+    imageUrl: "https://git.derchef.site/assets/img/logo.svg"
+    imageWidth: 240
+    buttons:
+    - name: CV
+      url: "https://git.derchef.site/derchef/derchef_cv/raw/branch/main/CV_Martin_Jindra.pdf"
+    #Content: >
+    #   Homepage of a student, programmer and service administrator.
+    #   - [soure code](https://git.derchef.site/derchef/derchef.site)
+    #   - links:
   socialIcons:
-    - name: ""
-      url: "derchef.site"
     - name: "Github"
       url: "https://github.com/MartinJindra"
     - name: "Gitlab"
       url: "https://gitlab.com/derchef"
     - name: "Gitea"
       url: "https://git.derchef.site/derchef"
+
