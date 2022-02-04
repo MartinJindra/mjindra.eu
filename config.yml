@@ -20,11 +20,14 @@ languages:
       - name: Blog
         url: blog
         weight: 5
+      - name: Contact
+        url: contact
+        weight: 5
 
 params:
 
   defaultTheme: dark
-  disableThemeToggle: true
+  disableThemeToggle: false
 
   profileMode:
     enabled: true
