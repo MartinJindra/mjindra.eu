@@ -1,7 +1,6 @@
 ---
-title: "Nextcloud Server"
-draft: false
+title: "Cloud"
+summary: "Nextcloud Server"
 ---
 
 [Link](https://lxcloud.derchef.site)
-

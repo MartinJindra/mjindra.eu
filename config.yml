@@ -26,18 +26,24 @@ languages:
 
 params:
 
-  defaultTheme: dark
-  disableThemeToggle: false
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowToc: true
 
   profileMode:
     enabled: true
     title: "Welcome strange visitor"
+    buttons:
+    - name: about
+      url: about
 
   socialIcons:
     - name: "Github"
       url: "https://github.com/MartinJindra"
-    - name: "Gitlab"
-      url: "https://gitlab.com/derchef"
     - name: "Gitea"
       url: "https://git.derchef.site/derchef"
     - name: RSS

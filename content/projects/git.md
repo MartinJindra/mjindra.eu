@@ -1,7 +1,12 @@
 ---
-title: "Git Server"
+title: "Git"
+summary: "Gitea Server"
 draft: false
 ---
 
-[Link](https://git.derchef.site)
+My private git server that uses
++ Gitea,
++ PostreSQL and
++ Nginx as a reverse proxy.
 
+[Link](https://git.derchef.site)
