@@ -40,4 +40,5 @@ params:
       url: "https://gitlab.com/derchef"
     - name: "Gitea"
       url: "https://git.derchef.site/derchef"
-
+    - name: RSS
+      url: "index.xml"
