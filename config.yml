@@ -14,14 +14,14 @@ languages:
     weight: 1
     menu:
       main:
-      - name: Services
-        url: services
+      - name: About
+        url: about
+        weight: 5
+      - name: Projects
+        url: projects
         weight: 5
       - name: Blog
         url: blog
-        weight: 5
-      - name: Contact
-        url: contact
         weight: 5
 
 params:
@@ -31,16 +31,8 @@ params:
 
   profileMode:
     enabled: true
-    title: "Welcome"
-    imageUrl: "https://git.derchef.site/assets/img/logo.svg"
-    imageWidth: 240
-    buttons:
-    - name: CV
-      url: "https://git.derchef.site/derchef/derchef_cv/raw/branch/main/CV_Martin_Jindra.pdf"
-    #Content: >
-    #   Homepage of a student, programmer and service administrator.
-    #   - [soure code](https://git.derchef.site/derchef/derchef.site)
-    #   - links:
+    title: "Welcome strange visitor"
+
   socialIcons:
     - name: "Github"
       url: "https://github.com/MartinJindra"
