@@ -7,6 +7,10 @@ The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange
 
 To build the website [hugo](https://gohugo.io/getting-started/installing/#quick-install) has to be installed.
 
+### Windows
+
+Follow the instructions on the [hugo website](https://gohugo.io/getting-started/installing#windows)
+
 ### Archlinux-based linux distributions
 
 ```
