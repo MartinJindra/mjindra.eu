@@ -5,11 +5,27 @@ The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange
 
 ## Building
 
-To build the website [hugo](https://gohugo.io/getting-started/installing/#quick-install) has to be installed.
+To build the website [Hugo](https://gohugo.io/getting-started/installing/#quick-install) has to be installed.
 
 ### Windows
 
-Follow the instructions on the [hugo website](https://gohugo.io/getting-started/installing#windows)
+Follow the instructions on the [Hugo website](https://gohugo.io/getting-started/installing#windows)
+
+### MacOS
+
+Install Hugo with `brew`.
+
+```
+brew install hugo
+```
+
+If `brew` is not installed run this command.
+
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+If you don't want to use `brew` follow these [instructions](https://gohugo.io/getting-started/installing#install-hugo-from-tarball).
 
 ### Archlinux-based linux distributions
 
@@ -31,8 +47,8 @@ sudo dnf update
 sudo dnf install hugo git
 ```
 
-Clone the repository with the theme as a submodule.
-Change the current directory it.
+Clone the repository recursively to use the theme as a submodule.
+Change the working directory.
 
 ```
 git clone https://git.derchef.site/derchef/derchef.site.git --recursive
