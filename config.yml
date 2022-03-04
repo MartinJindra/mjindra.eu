@@ -37,6 +37,7 @@ params:
   profileMode:
     enabled: true
     title: "Welcome strange visitor"
+    imageUrl: profile.png
     buttons:
     - name: about
       url: about
