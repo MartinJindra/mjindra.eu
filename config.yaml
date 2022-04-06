@@ -43,6 +43,8 @@ params:
       url: about
 
   socialIcons:
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/martinjindra"
     - name: Github
       url: "https://github.com/MartinJindra"
     - name: Gitea
