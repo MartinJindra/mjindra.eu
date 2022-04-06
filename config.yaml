@@ -1,4 +1,4 @@
-baseURL: "https://derchef.site/"
+baseURL: "/"
 title: "derchef"
 theme: "PaperMod"
 
@@ -14,20 +14,20 @@ languages:
     weight: 1
     menu:
       main:
-      - name: About
+      - name: about
         url: about
         weight: 5
-      - name: Projects
+      - name: projects
         url: projects
         weight: 5
-      - name: Blog
+      - name: blog
         url: blog
         weight: 5
 
 params:
 
   defaultTheme: auto
-  disableThemeToggle: true
+  disableThemeToggle: false
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: false
@@ -37,15 +37,15 @@ params:
   profileMode:
     enabled: true
     title: "Welcome strange visitor"
-    imageUrl: profile.png
+    imageUrl: img/profile.png
     buttons:
     - name: about
       url: about
 
   socialIcons:
-    - name: "Github"
+    - name: Github
       url: "https://github.com/MartinJindra"
-    - name: "Gitea"
+    - name: Gitea
       url: "https://git.derchef.site/derchef"
     - name: RSS
       url: "index.xml"
