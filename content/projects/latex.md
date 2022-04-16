@@ -14,55 +14,85 @@ and is set up with Docker.
 Sample configuration:
 
 ```yml
-mongo:
+name: overleaf
+services:
+  mongo:
     expose:
-    - 27017
+    - "27017"
     healthcheck:
+      test:
+      - CMD-SHELL
+      - echo 'db.stats().ok' | mongo localhost:27017/test --quiet
+      timeout: 10s
       interval: 10s
       retries: 5
-      test: echo 'db.stats().ok' | mongo localhost:27017/test --quiet
-      timeout: 10s
-    image: mongo:4.0
+    image: docker.io/mongo:4.0
+    networks:
+      default: null
+    restart: always
     volumes:
-    - mongo_data:/data/db:rw
-redis:
-   image: redis
-   volumes:
-   - redis:/var/lib/redis:rw
- sharelatex:
-   depends_on:
-     mongo:
-       condition: service_healthy
-     proxy:
-       condition: service_started
-     redis:
-       condition: service_started
-   environment:
-     EMAIL_CONFIRMATION_DISABLED: 'true'
-     ENABLED_LINKED_FILE_TYPES: 'project_file,project_output_file'
-     ENABLE_CONVERSIONS: 'true'
-     LETSENCRYPT_EMAIL: max@mustermann.com
-     LETSENCRYPT_HOST: latex.mustermann.com
-     REDIS_HOST: redis
-     SHARELATEX_ADMIN_EMAIL: max@mustermann.com
-     SHARELATEX_APP_NAME: Overleaf Community Edition
-     SHARELATEX_MONGO_URL: mongodb://mongo/sharelatex
-     SHARELATEX_REDIS_HOST: redis
-     SHARELATEX_SITE_URL: https://latex.mustermann.com
-     TEXMFVAR: /var/lib/sharelatex/tmp/texmf-var
-   image: sharelatex/sharelatex
-   - mongo
-   - redis
-   ports:
-   - 5000:80/tcp
-   restart: always
-   volumes:
-   - sharelatex_data:/var/lib/sharelatex:rw
-version: '2.1'
+    - type: volume
+      source: mongo
+      target: /data/db
+      volume: {}
+  redis:
+    expose:
+    - "6379"
+    image: docker.io/redis:5
+    networks:
+      default: null
+    restart: always
+    volumes:
+    - type: volume
+      source: redis
+      target: /data
+      volume: {}
+  sharelatex:
+    depends_on:
+      mongo:
+        condition: service_healthy
+      proxy:
+        condition: service_started
+      redis:
+        condition: service_started
+    environment:
+      EMAIL_CONFIRMATION_DISABLED: '''true'''
+      ENABLE_CONVERSIONS: '''true'''
+      ENABLED_LINKED_FILE_TYPES: '''project_file,project_output_file'''
+      REDIS_HOST: redis
+      SHARELATEX_ADMIN_EMAIL: test@gmail.com
+      SHARELATEX_APP_NAME: Overleaf Community Edition
+      SHARELATEX_MONGO_URL: mongodb://mongo/sharelatex
+      SHARELATEX_REDIS_HOST: redis
+      SHARELATEX_SITE_URL: http://latex.localhost
+      TEXMFVAR: /var/lib/sharelatex/tmp/texmf-var
+    image: docker.io/sharelatex/sharelatex
+    links:
+    - mongo
+    - redis
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5000"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: sharelatex
+      target: /var/lib/sharelatex
+      volume: {}
+networks:
+  default:
+    name: overleaf_default
 volumes:
-  mongo_data: {}
-  redis: {}
-  sharelatex_data: {}
+  mongo:
+    name: overleaf_mongo
+  redis:
+    name: overleaf_redis
+  sharelatex:
+    name: overleaf_sharelatex
 ```
 
 [Link](https://tex.derchef.site)
