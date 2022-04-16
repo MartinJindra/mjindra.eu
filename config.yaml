@@ -26,6 +26,7 @@ languages:
 
 params:
 
+  # settings
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: false
@@ -34,6 +35,13 @@ params:
   ShowBreadCrumbs: true
   ShowToc: true
 
+  # favicon
+  assets:
+    favicon: favicon/logo_derchef.site_64x64.png
+    favicon16x16: favicon/logo_derchef.site_16x16.png
+    favicon32x32: favicon/logo_derchef.site_32x32.png
+
+  # homepage mode
   profileMode:
     enabled: true
     title: "Welcome strange visitor"
@@ -42,6 +50,7 @@ params:
     - name: about
       url: about
 
+  # social links
   socialIcons:
     - name: LinkedIn
       url: "https://www.linkedin.com/in/martinjindra"
@@ -51,3 +60,4 @@ params:
       url: "https://git.derchef.site/derchef"
     - name: RSS
       url: "index.xml"
+
