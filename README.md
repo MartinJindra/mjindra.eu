@@ -3,51 +3,19 @@
 My personal [website](https://derchef.site) created with Hugo.
 The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 
-## Building
+## how to build the site
 
-To build the website [Hugo](https://gohugo.io/getting-started/installing/#quick-install) has to be installed.
+### dependencies
 
-### Windows
+Install the following dependencies on your system.
 
-Follow the instructions on the [Hugo website](https://gohugo.io/getting-started/installing#windows)
+1. [Hugo](https://gohugo.io/getting-started/installing/#quick-install)
+2. [Docker](https://docs.docker.com/engine/install/)
 
-### MacOS
+### building
 
-Install Hugo with `brew`.
+Clone the repository recursively to also download the hugo theme.
 
-```
-brew install hugo
-```
-
-If `brew` is not installed run this command.
-
-```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-If you don't want to use `brew` follow these [instructions](https://gohugo.io/getting-started/installing#install-hugo-from-tarball).
-
-### Archlinux-based linux distributions
-
-```
-sudo pacman -Sy hugo git
-```
-
-### Debian 10+ / Ubuntu 20.04+
-
-```
-sudo apt update
-sudo apt install hugo git
-```
-
-### Fedora
-
-```
-sudo dnf update
-sudo dnf install hugo git
-```
-
-Clone the repository recursively to use the theme as a submodule.
 Change the working directory.
 
 ```

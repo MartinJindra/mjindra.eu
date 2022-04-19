@@ -26,6 +26,11 @@ languages:
 
 params:
 
+  editPost:
+    URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
   # settings
   defaultTheme: auto
   disableThemeToggle: false
