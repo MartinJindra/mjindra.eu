@@ -37,7 +37,7 @@ params:
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: false
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowToc: true
 
   # favicon
