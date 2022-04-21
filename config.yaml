@@ -9,11 +9,18 @@ buildExpired: false
 languageCode: "en"
 relativeURLs: true
 enableEmoji: true
+defaultContentLanguage: de
 
 languages:
   en:
     languageName: "English"
-    weight: 1
+    profileMode:
+      enabled: true
+      title: "Welcome strange visitor"
+      imageUrl: img/profile.png
+      buttons:
+      - name: about
+        url: about
     menu:
       main:
       - name: about
@@ -25,16 +32,41 @@ languages:
       - name: blog
         url: blog
         weight: 5
-
-params:
-
-  editPost:
-    URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    editPost:
+      URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link
+    
+  de:
+    languageName: "English"
+    title: "derchef"
+    DateFormat: "2. Jänner 2006"
+    profileMode:
+      enabled: true
+      title: "Willkommen, Fremder"
+      imageUrl: img/profile.png
+      buttons:
+      - name: Über
+        url: about
+    menu:
+      main:
+      - name: Über
+        url: about
+        weight: 5
+      - name: Projekte
+        url: projects
+        weight: 5
+      - name: Blog
+        url: blog
+        weight: 5
+    editPost:
+      URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
+      Text: "Änderungen vorschlagen" # edit text
+      appendFilePath: true # to append file path to Edit link
 
 params:
   env: production
+
   # settings
   defaultTheme: auto
   disableThemeToggle: false
@@ -51,15 +83,6 @@ params:
     favicon32x32: favicon/logo_derchef.site_32x32.png
     apple_touch_icon: favicon/logo_derchef.site_apple-touch-icon.png
 
-  # homepage mode
-  profileMode:
-    enabled: true
-    title: "Welcome strange visitor"
-    imageUrl: img/profile.png
-    buttons:
-    - name: about
-      url: about
-
   # social links
   socialIcons:
     - name: LinkedIn
@@ -70,4 +93,3 @@ params:
       url: "https://git.derchef.site/derchef"
     - name: RSS
       url: "index.xml"
-
