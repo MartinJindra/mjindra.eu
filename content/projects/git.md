@@ -14,6 +14,6 @@ Mein privater Git Server nutzt
 
 ## Warum Gitea?
 
-Manche Menschen wundern sich, warum ich nicht einfach Github oder Gitlab benutze. Warum hoste ich meinen eigenen Server, welcher extra Strom, Leistung und Geld kostet? Ehrlich gesagt, wollte ich probieren ob es möglich ist. Um einen Ort zu schaffen auf, wo ich Software hosten kann, welche ich geschrieben habe und brauche. Natürlich sollten die meisten Menschen diese Services nutzen.  
+Manche Menschen wundern sich, warum ich nicht einfach Github oder Gitlab benutze. Warum hoste ich meinen eigenen Server, welcher extra Strom, Leistung und Geld kostet? Ehrlich gesagt, wollte ich probieren ob es möglich ist. Um einen Ort zu schaffen auf, wo ich Software hosten kann, welche ich geschrieben habe und brauche. Natürlich sollten die meisten Menschen diese Services nutzen.
 
 + Link zum Server --> [Online](https://git.derchef.site)

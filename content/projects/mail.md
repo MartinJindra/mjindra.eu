@@ -1,7 +1,7 @@
 ---
-title: "Mail"
-summary: "Mail-in-a-Box"
-#date: 2021-03-09T11:26:29+01:00
+title: "E-Mail"
+summary: "Persönlicher Mail-in-a-Box Server"
+date: 2021-03-09T11:26:29+01:00
 ---
 
-[Link](https://box.derchef.email/mail)
++ Link zum Server --> [Online](https://box.derchef.email/mail)
