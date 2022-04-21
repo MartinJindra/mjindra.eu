@@ -1,18 +1,17 @@
 ---
 title: "Overleaf"
-summary: "Persönlicher Overleaf Server"
+summary: "Personal Overleaf server"
 date: 2022-01-18T21:56:20+01:00
 ---
 
-Mein online Latex Editor benutzt
-
+My online Latex editor that uses
 + Overleaf Community Editon,
-+ MongoDB als Datenbank und
-+ Redis als Zwischenspeicher
++ MongoDB as a DB and
++ Redis as a cache
 
-und wird mit Docker erstellt.
+and is set up with Docker.
 
-Beispielkonfiguration:
+Sample configuration:
 
 ```yml
 name: overleaf
@@ -96,4 +95,4 @@ volumes:
     name: overleaf_sharelatex
 ```
 
-+ Link zum Server --> [Online](https://tex.derchef.site)
++ Link to server --> [online](https://tex.derchef.site)

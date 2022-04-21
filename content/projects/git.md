@@ -1,19 +1,19 @@
 ---
-title: "Git Server"
-summary: "Gitea server"
-#date: 2021-03-07T12:02:51+01:00
+title: "Git"
+summary: "Persönlicher Gitea Server"
+date: 2021-03-07T12:02:51+01:00
 ---
 
-## What does the server use
+## Welche Komponenten nutzt der Server
 
-My private git server uses
+Mein privater Git Server nutzt
 
 + Gitea,
-+ Postresql and
++ Postresql und
 + Nginx.
 
-## Why use Gitea?
+## Warum Gitea?
 
-Some people may wonder why not just use Github or Gitlab. Why host your own git server that uses extra power and costs money? Honestly I just wanted to try if it is possible. To create a place where I can host software that I write and need. Of course most people should use these services.
+Manche Menschen wundern sich, warum ich nicht einfach Github oder Gitlab benutze. Warum hoste ich meinen eigenen Server, welcher extra Strom, Leistung und Geld kostet? Ehrlich gesagt, wollte ich probieren ob es möglich ist. Um einen Ort zu schaffen auf, wo ich Software hosten kann, welche ich geschrieben habe und brauche. Natürlich sollten die meisten Menschen diese Services nutzen.  
 
-+ Link to server [online](https://git.derchef.site)
++ Link zum Server --> [Online](https://git.derchef.site)
