@@ -1,12 +1,14 @@
 baseURL: "/"
 title: "derchef"
 theme: "PaperMod"
+paginate: 4
 
 buildDrafts: false
 buildExpired: false
 
 languageCode: "en"
 relativeURLs: true
+enableEmoji: true
 
 languages:
   en:
@@ -31,6 +33,8 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
+params:
+  env: production
   # settings
   defaultTheme: auto
   disableThemeToggle: false
