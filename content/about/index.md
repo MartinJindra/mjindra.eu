@@ -1,24 +1,24 @@
 ---
-title: "About"
+title: "Über"
 ShowToc: false
 ---
 
-## About me
+## Über mich
 
 ![profile](/img/profile.png)
 
-I am a student, programmer and service administrator. Constantly trying new software and services. Love using technologies like Docker and Git.
+Ich bin ein Schüler, Programmierer und Serveradminstrator. Probiere ständig neue Software und Services aus. Und nützliche Technologien wie Docker und Git.
 
-## Contact
+## Kontaktdaten
 
-Follow me
+Folge mir
 
 1. [LinkedIn](https://www.linkedin.com/in/martinjindra)
 2. [RSS](/index.xml)
 3. [Github](https://github.com/MartinJindra)
 
-### Source code
+### Quellcode
 
-If you want to know how this website
+Wollen Sie wissen, wie diese Webseite gebaut wurde.
 
-- source code of this website [online](https://github.com/MartinJindra/derchef.site)
+- Quellcode dieser Webseite [Online](https://github.com/MartinJindra/derchef.site)

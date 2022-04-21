@@ -1,10 +1,10 @@
 ---
-title: "Blog von derchef"
+title: "derchef's blog"
 date: 2022-01-06T22:01:11+01:00
 draft: false
 ---
 
-RSS-Feed --> [online](../index.xml)
+RSS --> [online](../index.xml)
 
 # Lorem Ipsum
 
