@@ -45,6 +45,7 @@ params:
     favicon: favicon/logo_derchef.site_64x64.png
     favicon16x16: favicon/logo_derchef.site_16x16.png
     favicon32x32: favicon/logo_derchef.site_32x32.png
+    apple_touch_icon: favicon/logo_derchef.site_apple-touch-icon.png
 
   # homepage mode
   profileMode:
