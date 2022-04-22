@@ -10,4 +10,4 @@ Mein persönlicher eBuch-Server, welcher
 
 nutzt.
 
-+ Link zum Server --> [[Online](https://book.derchef.site)
++ Link zum Server --> [Online](https://book.derchef.site)
