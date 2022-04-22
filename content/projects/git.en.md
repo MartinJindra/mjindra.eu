@@ -1,7 +1,11 @@
 ---
 title: "Git"
-summary: "Personal Gitea server"
 date: 2021-03-07T12:02:51+01:00
+summary: "Personal Gitea server"
+ShowToc: false
+TocOpen: false
+comments: true
+draft: false
 ---
 
 ## What does the server use

@@ -1,6 +1,9 @@
 ---
 title: "Über"
 ShowToc: false
+TocOpen: false
+comments: false
+draft: false
 ---
 
 ## Über mich

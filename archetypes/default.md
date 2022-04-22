@@ -2,7 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 summary: {{ .Name }}
-comments: true
+ShowToc: false
+TocOpen: false
+comments: false
 draft: true
 ---
 

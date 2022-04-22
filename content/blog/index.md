@@ -1,6 +1,10 @@
 ---
 title: "Blog von derchef"
 date: 2022-01-06T22:01:11+01:00
+summary: "Blog von derchef"
+ShowToc: false
+TocOpen: false
+comments: false
 draft: false
 ---
 

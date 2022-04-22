@@ -1,7 +1,11 @@
 ---
 title: "Overleaf"
-summary: "Personal Overleaf server"
 date: 2022-01-18T21:56:20+01:00
+summary: "Personal Overleaf server"
+ShowToc: false
+TocOpen: false
+comments: true
+draft: false
 ---
 
 My online Latex editor that uses

@@ -34,8 +34,8 @@ languages:
         weight: 5
     editPost:
       URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
-      Text: "Suggest Changes" # edit text
-      appendFilePath: true # to append file path to Edit link
+      Text: "Suggest Changes"
+      appendFilePath: true
     
   de:
     languageName: "English"
@@ -60,21 +60,22 @@ languages:
         weight: 5
     editPost:
       URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
-      Text: "Änderungen vorschlagen" # edit text
-      appendFilePath: true # to append file path to Edit link
+      Text: "Änderungen vorschlagen"
+      appendFilePath: true
 
 params:
   env: production
 
   # settings
+  DateFormat: ":date_long"
   defaultTheme: auto
   disableThemeToggle: false
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
-  ShowToc: true
-  DateFormat: ":date_long"
+  ShowToc: false
+  comments: false
 
   # favicon
   assets:
