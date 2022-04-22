@@ -36,3 +36,33 @@ Or serve the site so that you can visit the site on [localhost:1313](localhost:1
 ```
 hugo server
 ```
+
+### deployment
+
+The deployment of the website and comment server is done by Docker.
+
+To configure the comment server create a [.env](.env) file and paste the sample configuration into the file.
+
+```
+# website settings
+REMARK_URL=http://remark42.localhost
+SECRET=mysecret
+SITE=remark
+
+# admin settings
+ADMIN_SHARED_ID=mysecretid
+ADMIN_SHARED_EMAIL=max@mustermann.com
+ADMIN_PASSWD=password
+
+# authentications
+AUTH_GITHUB_CID=secret_token
+AUTH_GITHUB_CSEC=secret_token
+AUTH_GOOGLE_CID=secret_token
+AUTH_GOOGLE_CSEC=secret_token
+```
+
+And when everything is finished you can start both applications with a
+
+```
+docker-compose up -d
+```

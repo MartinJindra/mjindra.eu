@@ -1,0 +1,54 @@
+version: "3"
+
+services:
+  caddy:
+    image: caddy:alpine
+    container_name: "caddy"
+    restart: always
+    command: caddy run --config /etc/caddy/caddy.json
+    ports:
+      - "80:80"
+    volumes:
+      - $PWD/caddy.json:/etc/caddy/caddy.json:ro
+      - $PWD/public/:/usr/share/caddy/:ro
+
+  remark:
+    image: umputun/remark42:latest
+    container_name: "remark42"
+    hostname: "remark42"
+    restart: always
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      # website settings
+      - REMARK_URL=${REMARK_URL}
+      - SECRET=${SECRET}
+      - SITE=${SITE}
+      - DEBUG=false
+      - VOTES_IP=true
+      - EMOJI=true
+      # admin settings
+      - ADMIN_SHARED_ID=${ADMIN_SHARED_ID}
+      - ADMIN_SHARED_EMAIL=${ADMIN_SHARED_EMAIL}
+      - ADMIN_PASSWD=${ADMIN_PASSWD}
+      - ADMIN_EDIT=true
+      # authentications
+      - AUTH_GITHUB_CID=${AUTH_GITHUB_CID}
+      - AUTH_GITHUB_CSEC=${AUTH_GITHUB_CSEC}
+      - AUTH_GOOGLE_CID=${AUTH_GOOGLE_CID}
+      - AUTH_GOOGLE_CSEC=${AUTH_GOOGLE_CSEC}
+      - AUTH_EMAIL_ENABLE=true
+      - AUTH_ANON=true
+    volumes:
+      - remark42_data:/srv/var
+
+volumes:
+  remark42_data:
