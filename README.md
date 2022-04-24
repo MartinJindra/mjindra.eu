@@ -11,37 +11,25 @@ Install the following dependencies on your system.
 
 1. [Hugo](https://gohugo.io/getting-started/installing/#quick-install)
 2. [Docker](https://docs.docker.com/engine/install/)
+3. [make](https://www.gnu.org/software/make/)
 
 ### building
 
-Clone the repository recursively to also download the hugo theme.
-
-Change the working directory.
+To build the source code execute in the project directory
 
 ```
-git clone https://git.derchef.site/derchef/derchef.site.git --recursive
-cd derchef.site
-```
-
-Build the site.
-
-```
-hugo
+make build
 ```
 
 In the newly created directory [public](public) you can see the html and js files.
 
-Or serve the site so that you can visit the site on [localhost:1313](localhost:1313).
-
-```
-hugo server
-```
-
 ### deployment
 
-The deployment of the website and comment server is done by Docker.
+The deployment of the website and comment server is done by Docker. All configuration is done in [docker-compose.yml](docker-compose.yml) and [.env](.env).
 
-To configure the comment server create a [.env](.env) file and paste the sample configuration into the file.
+The [.env](.env) should include this options and change these values accordingly.
+
+Values like `mysecret`,`password` and `secret_token` should be changed in production.
 
 ```
 # website settings
@@ -61,8 +49,21 @@ AUTH_GOOGLE_CID=secret_token
 AUTH_GOOGLE_CSEC=secret_token
 ```
 
-And when everything is finished you can start both applications with a
+To checkout how a sample would run on a server execute
 
 ```
-docker-compose up -d
+make dummy
 ```
+
+If you enter your own values in [.env](.env) execute
+
+```
+make serve
+```
+
+### shutting down
+
+```
+make down
+```
+

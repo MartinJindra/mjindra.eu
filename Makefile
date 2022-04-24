@@ -2,7 +2,7 @@ HUGO := hugo
 DOCKER := docker
 DOCKER_COMPOSE := docker-compose
 
-.PHONY: clean submodules public dummy verify serve down
+.PHONY: clean submodules build dummy verify serve down
 
 clean:
 	git clean -dxf
@@ -10,13 +10,13 @@ clean:
 submodules:
 	git submodule update --recursive --init
 
-public: clean submodules
+build: clean submodules
 	$(HUGO)
 
 verify:
 	@if [[ -n "$(DOCKER_COMPOSE) config -q" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
 
-dummy: public
+dummy: build
 	@if [[ ! -e "$(PWD).env" ]]; then\
 		echo "# website settings" >> .env;\
 		echo "REMARK_URL=http://remark42.localhost" >> .env;\
@@ -36,7 +36,7 @@ dummy: public
 	fi
 	$(DOCKER_COMPOSE) up -d
 
-serve: public verify
+serve: build verify
 	$(DOCKER_COMPOSE) up -d
 
 down: verify
