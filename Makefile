@@ -1,3 +1,5 @@
+.DEFAULT_GOAL := build
+
 HUGO := hugo
 DOCKER := docker
 DOCKER_COMPOSE := docker-compose
