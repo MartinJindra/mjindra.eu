@@ -30,6 +30,7 @@ services:
     environment:
       # website settings
       - REMARK_URL=${REMARK_URL}
+      - REMARK_PORT=8080
       - SECRET=${SECRET}
       - SITE=${SITE}
       - DEBUG=false
@@ -45,7 +46,6 @@ services:
       - AUTH_GITHUB_CSEC=${AUTH_GITHUB_CSEC}
       - AUTH_GOOGLE_CID=${AUTH_GOOGLE_CID}
       - AUTH_GOOGLE_CSEC=${AUTH_GOOGLE_CSEC}
-      - AUTH_EMAIL_ENABLE=true
       - AUTH_ANON=true
     volumes:
       - remark42_data:/srv/var
