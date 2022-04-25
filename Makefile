@@ -19,7 +19,7 @@ serve: clean submodules
 	$(HUGO) serve
 
 verify:
-	@if [[ ! -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
+	@if [[ -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
 
 dummy: build
 	@if [[ ! -e "$(PWD).env" ]]; then\
