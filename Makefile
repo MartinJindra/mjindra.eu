@@ -4,7 +4,7 @@ HUGO := hugo
 DOCKER := docker
 DOCKER_COMPOSE := docker-compose
 
-.PHONY: clean submodules build dummy verify serve down
+.PHONY: clean submodules build serve dummy verify up down
 
 clean:
 	git clean -dxf
@@ -14,6 +14,9 @@ submodules:
 
 build: clean submodules
 	$(HUGO)
+
+serve: clean submodules
+	$(HUGO) serve
 
 verify:
 	@if [[ ! -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
@@ -38,7 +41,7 @@ dummy: build
 	fi
 	$(DOCKER_COMPOSE) up -d
 
-serve: build verify
+up: build verify
 	$(DOCKER_COMPOSE) up -d
 
 down: verify

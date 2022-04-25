@@ -1,4 +1,4 @@
-# derchef.site
+# [derchef.site](https://derchef.site)
 
 My personal [website](https://derchef.site) created with Hugo.
 The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
@@ -11,7 +11,8 @@ Install the following dependencies on your system.
 
 1. [Hugo](https://gohugo.io/getting-started/installing/#quick-install)
 2. [Docker](https://docs.docker.com/engine/install/)
-3. [make](https://www.gnu.org/software/make/)
+3. [Docker Compose](https://docs.docker.com/compose/install/)
+4. [make](https://www.gnu.org/software/make/)
 
 ### building
 
@@ -23,13 +24,19 @@ make build
 
 In the newly created directory [public](public) you can see the html and js files.
 
+If you only want to preview the website.
+
+```
+make serve
+```
+
 ### deployment
 
 The deployment of the website and comment server is done by Docker. All configuration is done in [docker-compose.yml](docker-compose.yml) and [.env](.env).
 
 The [.env](.env) should include this options and change these values accordingly.
 
-Values like `mysecret`,`password` and `secret_token` should be changed in production.
+Values like `mysecret`, `password` and `secret_token` should be changed in production.
 
 ```
 # website settings
@@ -58,7 +65,7 @@ make dummy
 If you enter your own values in [.env](.env) execute
 
 ```
-make serve
+make up
 ```
 
 ### shutting down
