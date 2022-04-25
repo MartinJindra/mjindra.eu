@@ -5,11 +5,10 @@ services:
     image: caddy:alpine
     container_name: "caddy"
     restart: always
-    command: caddy run --config /etc/caddy/caddy.json
     ports:
       - "80:80"
     volumes:
-      - $PWD/caddy.json:/etc/caddy/caddy.json:ro
+      - $PWD/Caddyfile:/etc/caddy/Caddyfile:ro
       - $PWD/public/:/usr/share/caddy/:ro
 
   remark:
