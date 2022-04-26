@@ -7,7 +7,7 @@ DOCKER_COMPOSE := docker-compose
 .PHONY: clean submodules build serve dummy verify up down
 
 clean:
-	git clean -dxf
+	git clean -df
 
 submodules:
 	git submodule update --recursive --init
