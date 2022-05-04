@@ -8,4 +8,4 @@ comments: true
 draft: false
 ---
 
-+ Link to server --> [online](https://pref.derchef.site)
++ Link to server --> [online](https://pref.mjindra.eu)

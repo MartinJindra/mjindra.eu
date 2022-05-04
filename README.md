@@ -1,6 +1,6 @@
-# [derchef.site](https://derchef.site)
+# [mjindra.eu](https://mjindra.eu)
 
-My personal [website](https://derchef.site) created with Hugo.
+My personal [website](https://mjindra.eu) created with Hugo.
 The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 
 ## how to build the site

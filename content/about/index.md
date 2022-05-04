@@ -24,4 +24,4 @@ Folge mir
 
 Wollen Sie wissen, wie diese Webseite gebaut wurde.
 
-- Quellcode dieser Webseite [Online](https://github.com/MartinJindra/derchef.site)
+- Quellcode dieser Webseite [Online](https://github.com/MartinJindra/mjindra.eu)

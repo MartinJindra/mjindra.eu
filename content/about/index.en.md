@@ -24,4 +24,4 @@ Follow me
 
 Want to know how this website was build
 
-- source code of this website [online](https://github.com/MartinJindra/derchef.site)
+- source code of this website [online](https://github.com/MartinJindra/mjindra.eu)

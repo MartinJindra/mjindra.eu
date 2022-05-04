@@ -1,5 +1,5 @@
 baseURL: "/"
-title: "derchef"
+title: "mjindra.eu"
 theme: "PaperMod"
 paginate: 4
 
@@ -41,13 +41,12 @@ languages:
         url: blog
         weight: 5
     editPost:
-      URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
+      URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
       Text: "Suggest Changes"
       appendFilePath: true
 
   de:
     languageName: "English"
-    title: "derchef"
     profileMode:
       enabled: true
       title: "Willkommen, Fremder"
@@ -69,7 +68,7 @@ languages:
         url: blog
         weight: 5
     editPost:
-      URL: "https://github.com/MartinJindra/derchef.site/tree/main/content"
+      URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
       Text: "Änderungen vorschlagen"
       appendFilePath: true
 
@@ -89,10 +88,10 @@ params:
 
   # favicon
   assets:
-    favicon: favicon/logo_derchef.site_64x64.png
-    favicon16x16: favicon/logo_derchef.site_16x16.png
-    favicon32x32: favicon/logo_derchef.site_32x32.png
-    apple_touch_icon: favicon/logo_derchef.site_apple-touch-icon.png
+    favicon: favicon/logo_mjindra.eu_64x64.png
+    favicon16x16: favicon/logo_mjindra.eu_16x16.png
+    favicon32x32: favicon/logo_mjindra.eu_32x32.png
+    apple_touch_icon: favicon/logo_mjindra.eu_apple-touch-icon.png
 
   # social links
   socialIcons:
@@ -105,6 +104,6 @@ params:
     - name: Gitlab
       url: "https://gitlab.com/derchef"
     - name: Gitea
-      url: "https://git.derchef.site/derchef"
+      url: "https://git.mjindra.eu/derchef"
     - name: RSS
       url: "index.xml"

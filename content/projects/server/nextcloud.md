@@ -8,4 +8,4 @@ comments: true
 draft: false
 ---
 
-+ Link zum Server --> [Online](https://lxcloud.derchef.site)
++ Link zum Server --> [Online](https://lxcloud.mjindra.eu)
