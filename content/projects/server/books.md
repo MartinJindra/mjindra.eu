@@ -8,10 +8,6 @@ comments: true
 draft: false
 ---
 
-Mein persönlicher eBuch-Server, welcher
-
-+ [Calibre-Web](https://github.com/janeczku/calibre-web)
-
-nutzt.
+Mein persönlicher eBuch-Server, welcher [Calibre-Web](https://github.com/janeczku/calibre-web) nutzt.
 
 + Link zum Server --> [Online](https://book.mjindra.eu)
