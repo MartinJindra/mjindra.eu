@@ -14,14 +14,10 @@ I am a student, programmer and server administrator. Constantly trying new softw
 
 ## Contact
 
-Follow me
-
-1. [LinkedIn](https://www.linkedin.com/in/martinjindra)
-2. [RSS](/index.xml)
-3. [Github](https://github.com/MartinJindra)
+Contact me by [eMail](mailto:mjindra@derchef.email).
 
 ### Source code
 
 Want to know how this website was build
 
-- source code of this website [online](https://github.com/MartinJindra/mjindra.eu)
+- source code of this website --> [online](https://github.com/MartinJindra/mjindra.eu)

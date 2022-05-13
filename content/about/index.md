@@ -12,16 +12,12 @@ draft: false
 
 Ich bin ein Schüler, Programmierer und Serveradminstrator. Probiere ständig neue Software und Services aus. Und nützliche Technologien wie Docker und Git.
 
-## Kontaktdaten
+## Kontakt
 
-Folge mir
-
-1. [LinkedIn](https://www.linkedin.com/in/martinjindra)
-2. [RSS](/index.xml)
-3. [Github](https://github.com/MartinJindra)
+Wenn Sie mit mir Kontakt aufnehmen, kontakieren Sie mich per [eMail](mailto:mjindra@derchef.email).
 
 ### Quellcode
 
 Wollen Sie wissen, wie diese Webseite gebaut wurde.
 
-- Quellcode dieser Webseite [Online](https://github.com/MartinJindra/mjindra.eu)
+- Quellcode dieser Webseite --> [Online](https://github.com/MartinJindra/mjindra.eu)

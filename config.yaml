@@ -99,6 +99,8 @@ params:
       url: "mailto:mjindra@derchef.email"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/martinjindra"
+    - name: Instagram
+      url: "https://www.instagram.com/mjindra_eu"
     - name: Github
       url: "https://github.com/MartinJindra"
     - name: Gitlab
