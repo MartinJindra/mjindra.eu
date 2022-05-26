@@ -1,7 +1,6 @@
 # [mjindra.eu](https://mjindra.eu)
 
-My personal [website](https://mjindra.eu) created with Hugo.
-The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+My personal [website](https://mjindra.eu) created with Hugo. The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
 ## how to build the site
 
@@ -16,7 +15,7 @@ Install the following dependencies on your system.
 
 ### building
 
-To build the source code execute in the project directory
+To build the needed files execute in the project directory.
 
 ```
 make build
@@ -32,11 +31,9 @@ make serve
 
 ### deployment
 
-The deployment of the website and comment server is done by Docker. All configuration is done in [docker-compose.yml](docker-compose.yml) and [.env](.env).
+The deployment of the website and comment server is done by Docker. All the important configurations are done in [config.yaml](config.yaml), [docker-compose.yml](docker-compose.yml) and [.env](.env).
 
-The [.env](.env) should include this options and change these values accordingly.
-
-Values like `mysecret`, `password` and `secret_token` should be changed in production.
+The [.env](.env) should include the options which are listed below, change them accordingly. Values like `mysecret`, `password` and `secret_token` should be changed in production.
 
 ```
 # website settings
@@ -56,19 +53,21 @@ AUTH_GOOGLE_CID=secret_token
 AUTH_GOOGLE_CSEC=secret_token
 ```
 
-To checkout how a sample would run on a server execute
+To checkout how a sample website would look execute and visit [http://localhost](http://localhost).
 
 ```
 make dummy
 ```
 
-If you enter your own values in [.env](.env) execute
+If you enter your own values in [.env](.env) execute.
 
 ```
 make up
 ```
 
 ### shutting down
+
+To shutdown all running services execute.
 
 ```
 make down
