@@ -5,6 +5,7 @@ paginate: 4
 
 buildDrafts: false
 buildExpired: false
+enableRobotsTXT: true
 
 languageCode: "en"
 relativeURLs: true
