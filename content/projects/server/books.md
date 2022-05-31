@@ -6,6 +6,7 @@ ShowToc: false
 TocOpen: false
 comments: true
 draft: false
+weight: 3
 ---
 
 Mein persönlicher eBuch-Server, welcher [Calibre-Web](https://github.com/janeczku/calibre-web) nutzt.

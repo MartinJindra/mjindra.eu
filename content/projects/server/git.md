@@ -6,6 +6,7 @@ ShowToc: false
 TocOpen: false
 comments: true
 draft: false
+weight: 1
 ---
 
 ## Welche Komponenten nutzt der Server
