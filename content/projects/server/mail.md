@@ -6,7 +6,7 @@ ShowToc: false
 TocOpen: false
 comments: true
 draft: false
-weight: 3
+weight: 2
 ---
 
 + Link zum Server --> [Online](https://box.derchef.email/mail)

@@ -6,7 +6,7 @@ ShowToc: false
 TocOpen: false
 comments: true
 draft: false
-weight: 2
+weight: 1
 ---
 
 + Link to server --> [online](https://lxcloud.mjindra.eu)
