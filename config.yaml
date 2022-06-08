@@ -97,7 +97,7 @@ params:
   # social links
   socialIcons:
     - name: Email
-      url: "mailto:mjindra@derchef.email"
+      url: "mailto:martin@mjindra.eu"
     - name: LinkedIn
       url: "https://www.linkedin.com/in/martinjindra"
     - name: Instagram

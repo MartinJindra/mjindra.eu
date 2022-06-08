@@ -15,7 +15,7 @@ I am a student, programmer and server administrator. Constantly trying new softw
 
 ## Contact
 
-Contact me by [eMail](mailto:mjindra@derchef.email).
+Contact me by [eMail](mailto:martin@mjindra.eu).
 
 ### Source code
 

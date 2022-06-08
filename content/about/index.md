@@ -15,7 +15,7 @@ Ich bin ein Schüler, Programmierer und Serveradminstrator. Probiere ständig ne
 
 ## Kontakt
 
-Wenn Sie mit mir Kontakt aufnehmen, kontakieren Sie mich per [eMail](mailto:mjindra@derchef.email).
+Wenn Sie mit mir Kontakt aufnehmen, kontakieren Sie mich per [eMail](mailto:martin@mjindra.eu).
 
 ### Quellcode
 
