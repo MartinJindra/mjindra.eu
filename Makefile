@@ -1,7 +1,6 @@
 .DEFAULT_GOAL := build
 
 HUGO := hugo
-DOCKER := docker
 DOCKER_COMPOSE := docker-compose
 
 .PHONY: clean submodules build serve dummy verify up down
