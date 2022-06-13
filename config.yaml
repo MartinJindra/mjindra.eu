@@ -38,9 +38,6 @@ languages:
       - name: projects
         url: projects
         weight: 5
-      - name: blog
-        url: blog
-        weight: 5
     editPost:
       URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
       Text: "Suggest Changes"
@@ -64,9 +61,6 @@ languages:
         weight: 5
       - name: Projekte
         url: projects
-        weight: 5
-      - name: Blog
-        url: blog
         weight: 5
     editPost:
       URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
