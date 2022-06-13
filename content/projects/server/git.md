@@ -4,7 +4,7 @@ date: "2022-06-13T08:55:26+02:00"
 summary: "Persönlicher Gitea Server"
 ShowToc: false
 TocOpen: false
-comments: true
+comments: false
 draft: false
 weight: 2
 ---
