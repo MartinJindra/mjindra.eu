@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About me"
 ShowToc: false
 TocOpen: false
 comments: false
@@ -7,11 +7,9 @@ draft: false
 weight: 3
 ---
 
-## About me
+My name is Martin Jindra. I am a programmer and server administrator. I have various skills in computer science. My skills go from programming to hosting various programs and services.
 
 ![profile](/img/profile.png)
-
-I am a student, programmer and server administrator. Constantly trying new software and services. Love using technologies like Docker and Git.
 
 ## Contact
 

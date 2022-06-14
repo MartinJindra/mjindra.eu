@@ -1,5 +1,5 @@
 ---
-title: "Über"
+title: "Über mich"
 ShowToc: false
 TocOpen: false
 comments: false
@@ -7,11 +7,9 @@ draft: false
 weight: 3
 ---
 
-## Über mich
+Mein Name ist Martin Jindra. Ich bin ein Programmierer und Serveradminstrator. Ich habe verschiedene Kenntnisse in der Informatik. Meine Skills gehen vom Programmieren bis hin zum Hosten von diversen Programmen und Services.
 
 ![profile](/img/profile.png)
-
-Ich bin ein Schüler, Programmierer und Serveradminstrator. Probiere ständig neue Software und Services aus. Und nützliche Technologien wie Docker und Git.
 
 ## Kontakt
 
