@@ -32,12 +32,13 @@ languages:
       main:
       - name: 🔎
         url: search
+        weight: 3
       - name: about
         url: about
-        weight: 5
+        weight: 2
       - name: projects
         url: projects
-        weight: 5
+        weight: 1
     editPost:
       URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
       Text: "Suggest Changes"
@@ -56,12 +57,13 @@ languages:
       main:
       - name: 🔎
         url: search
+        weight: 3
       - name: Über
         url: about
-        weight: 5
+        weight: 2
       - name: Projekte
         url: projects
-        weight: 5
+        weight: 1
     editPost:
       URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
       Text: "Änderungen vorschlagen"
