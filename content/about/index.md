@@ -12,7 +12,7 @@ weight: 3
 
 Mein Name ist Martin Jindra. Ich bin ein Programmierer und Serveradminstrator. Ich habe verschiedene Kenntnisse in der Informatik. Meine Skills gehen vom Programmieren bis hin zum Hosten von diversen Programmen und Services.
 
-![profile](/img/profile.png)
+![profile](/img/profile.png#center)
 
 ## Kontakt
 
