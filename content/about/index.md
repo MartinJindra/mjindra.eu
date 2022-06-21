@@ -1,5 +1,8 @@
 ---
 title: "Über mich"
+author: "Martin Jindra"
+aliases: ["/mich"]
+tags: []
 ShowToc: false
 TocOpen: false
 comments: false
