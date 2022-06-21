@@ -82,6 +82,7 @@ params:
   ShowBreadCrumbs: false
   ShowToc: false
   comments: false
+  ShowCodeCopyButtons: true
 
   # favicon
   assets:
@@ -100,9 +101,5 @@ params:
       url: "https://www.instagram.com/mjindra_eu"
     - name: Github
       url: "https://github.com/MartinJindra"
-    # - name: Gitlab
-    #   url: "https://gitlab.com/derchef"
-    # - name: Gitea
-    #   url: "https://git.mjindra.eu/derchef"
-    # - name: RSS
-    #   url: "index.xml"
+    - name: RSS
+      url: "index.xml"
