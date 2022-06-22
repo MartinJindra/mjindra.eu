@@ -8,7 +8,7 @@ summary: "Persönlicher Nextcloud Server"
 ShowToc: false
 TocOpen: false
 comments: false
-draft: false
+draft: true
 weight: 1
 ---
 

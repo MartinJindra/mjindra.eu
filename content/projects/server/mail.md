@@ -8,7 +8,7 @@ summary: "Persönlicher Mail-in-a-Box Server"
 ShowToc: false
 TocOpen: false
 comments: false
-draft: false
+draft: true
 weight: 2
 ---
 

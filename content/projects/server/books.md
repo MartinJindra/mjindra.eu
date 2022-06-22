@@ -8,7 +8,7 @@ summary: "Persönlicher Server für eBücher"
 ShowToc: false
 TocOpen: false
 comments: false
-draft: false
+draft: true
 weight: 3
 ---
 
