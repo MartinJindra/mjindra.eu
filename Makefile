@@ -17,6 +17,12 @@ build: clean submodules
 serve: clean submodules
 	$(HUGO) serve
 
+build_with_draft: clean submodules
+	$(HUGO) -D
+
+serve_with_draft: clean submodules
+	$(HUGO) serve -D
+
 verify:
 	@if [[ -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
 
