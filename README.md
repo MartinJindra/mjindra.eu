@@ -31,35 +31,9 @@ make serve
 
 ### deployment
 
-The deployment of the website and comment server is done by Docker. All the important configurations are done in [config.yaml](config.yaml), [docker-compose.yml](docker-compose.yml) and [.env](.env).
-
-The [.env](.env) should include the options which are listed below, change them accordingly. Values like `mysecret`, `password` and `secret_token` should be changed in production.
-
-```
-# website settings
-REMARK_URL=http://remark42.localhost
-SECRET=mysecret
-SITE=remark
-
-# admin settings
-ADMIN_SHARED_ID=mysecretid
-ADMIN_SHARED_EMAIL=max@mustermann.com
-ADMIN_PASSWD=password
-
-# authentications
-AUTH_GITHUB_CID=secret_token
-AUTH_GITHUB_CSEC=secret_token
-AUTH_GOOGLE_CID=secret_token
-AUTH_GOOGLE_CSEC=secret_token
-```
+The deployment of the website is done by Docker. All the important configurations is done in [config.yaml](config.yaml).
 
 To checkout how a sample website would look execute and visit [http://localhost](http://localhost).
-
-```
-make dummy
-```
-
-If you enter your own values in [.env](.env) execute.
 
 ```
 make up

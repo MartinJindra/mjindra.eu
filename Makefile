@@ -3,7 +3,7 @@
 HUGO := hugo
 DOCKER_COMPOSE := docker-compose
 
-.PHONY: clean submodules build serve dummy verify up down
+.PHONY: clean submodules build serve build_with_draft serve_with_draft verify up down
 
 clean:
 	git clean -df
@@ -25,26 +25,6 @@ serve_with_draft: clean submodules
 
 verify:
 	@if [[ -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
-
-dummy: build
-	@if [[ ! -e "$(PWD).env" ]]; then\
-		echo "# website settings" >> .env;\
-		echo "REMARK_URL=http://remark42.localhost" >> .env;\
-		echo "SECRET=mysecret" >> .env;\
-		echo "SITE=remark" >> .env;\
-		echo "" >> .env;\
-		echo "# admin settings" >> .env;\
-		echo "ADMIN_SHARED_ID=mysecretid" >> .env;\
-		echo "ADMIN_SHARED_EMAIL=max@mustermann.com" >> .env;\
-		echo "ADMIN_PASSWD=password" >> .env;\
-		echo "" >> .env;\
-		echo "# authentications" >> .env;\
-		echo "AUTH_GITHUB_CID=secret_token" >> .env;\
-		echo "AUTH_GITHUB_CSEC=secret_token" >> .env;\
-		echo "AUTH_GOOGLE_CID=secret_token" >> .env;\
-		echo "AUTH_GOOGLE_CSEC=secret_token" >> .env;\
-	fi
-	$(DOCKER_COMPOSE) up -d
 
 up: build verify
 	$(DOCKER_COMPOSE) up -d
