@@ -8,7 +8,7 @@ buildExpired: false
 enableRobotsTXT: true
 
 languageCode: "en"
-relativeURLs: true
+relativeURLs: false
 enableEmoji: true
 defaultContentLanguage: de
 
@@ -16,7 +16,6 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
 languages:
   en:
@@ -30,19 +29,15 @@ languages:
         url: about
     menu:
       main:
+      - name: about
+        url: about
+        weight: 1
+      - name: projects
+        url: projects
+        weight: 2
       - name: 🔎
         url: search
         weight: 3
-      - name: about
-        url: about
-        weight: 2
-      - name: projects
-        url: projects
-        weight: 1
-    editPost:
-      URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
-      Text: "Suggest Changes"
-      appendFilePath: true
 
   de:
     languageName: "English"
@@ -55,19 +50,15 @@ languages:
         url: about
     menu:
       main:
+      - name: Über
+        url: about
+        weight: 1
+      - name: Projekte
+        url: projects
+        weight: 2
       - name: 🔎
         url: search
         weight: 3
-      - name: Über
-        url: about
-        weight: 2
-      - name: Projekte
-        url: projects
-        weight: 1
-    editPost:
-      URL: "https://github.com/MartinJindra/mjindra.eu/tree/main/content"
-      Text: "Änderungen vorschlagen"
-      appendFilePath: true
 
 params:
   env: production
@@ -75,7 +66,7 @@ params:
   # settings
   DateFormat: ":date_long"
   defaultTheme: auto
-  disableThemeToggle: true
+  disableThemeToggle: false
   ShowShareButtons: false
   ShowReadingTime: true
   ShowPostNavLinks: false
