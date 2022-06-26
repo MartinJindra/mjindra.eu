@@ -32,12 +32,15 @@ languages:
       - name: about
         url: about
         weight: 1
+      - name: blog
+        url: posts
+        weight: 2
       - name: projects
         url: projects
-        weight: 2
+        weight: 3
       - name: 🔎
         url: search
-        weight: 3
+        weight: 4
 
   de:
     languageName: "English"
@@ -53,12 +56,15 @@ languages:
       - name: Über
         url: about
         weight: 1
+      - name: Blog
+        url: posts
+        weight: 2
       - name: Projekte
         url: projects
-        weight: 2
+        weight: 3
       - name: 🔎
         url: search
-        weight: 3
+        weight: 4
 
 params:
   env: production
