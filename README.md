@@ -1,6 +1,10 @@
-# [mjindra.eu](https://mjindra.eu)
+# mjindra.eu
 
-My personal [website](https://mjindra.eu) created with Hugo. The theme that is being used is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+Everyone needs a personal website nowadays and I created mine with hugo. To visit it follow [www.mjindra.eu]](https://www.mjindra.eu).
+
+## Credit
+
+The theme that I am using is [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
 ## how to build the site
 
