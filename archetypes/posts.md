@@ -5,8 +5,8 @@ author: "Martin Jindra"
 aliases: []
 tags: []
 description: ""
-ShowToc: true
-TocOpen: true
+ShowToc: false
+TocOpen: false
 comments: false
 draft: true
 weight: 3
