@@ -4,7 +4,7 @@ date: "{{ .Date }}"
 author: "Martin Jindra"
 aliases: []
 tags: []
-summary: "{{ .Name }}"
+summary: ""
 ShowToc: true
 TocOpen: true
 comments: false
