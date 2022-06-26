@@ -3,24 +3,21 @@
 HUGO := hugo
 DOCKER_COMPOSE := docker-compose
 
-.PHONY: clean submodules build serve build_with_draft serve_with_draft verify up down
-
-clean:
-	git clean -df
+.PHONY: submodules build serve build_with_draft serve_with_draft verify up down
 
 submodules:
 	git submodule update --recursive --init
 
-build: clean submodules
+build: submodules
 	$(HUGO)
 
-serve: clean submodules
+serve: submodules
 	$(HUGO) serve
 
-build_with_draft: clean submodules
+build_with_draft: submodules
 	$(HUGO) -D
 
-serve_with_draft: clean submodules
+serve_with_draft: submodules
 	$(HUGO) serve -D
 
 verify:
