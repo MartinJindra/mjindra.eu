@@ -1,6 +1,6 @@
 # mjindra.eu
 
-Everyone needs a personal website nowadays and I created mine with hugo. To visit it follow [www.mjindra.eu]](https://www.mjindra.eu).
+Everyone needs a personal website nowadays and I created mine with hugo. To visit it follow [www.mjindra.eu](https://www.mjindra.eu).
 
 ## Credit
 
@@ -25,7 +25,7 @@ To build the needed files execute in the project directory.
 make build
 ```
 
-In the newly created directory [public](public) you can see the html and js files.
+In the newly created directory [public](public) you can see the HTML and JavaScript files.
 
 If you only want to preview the website.
 
