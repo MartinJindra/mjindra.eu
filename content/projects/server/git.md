@@ -1,6 +1,6 @@
 ---
 title: "Git"
-date: "2022-06-21T08:55:26+02:00"
+date: "2022-06-21"
 author: "Martin Jindra"
 aliases: ["/git"]
 tags: []
