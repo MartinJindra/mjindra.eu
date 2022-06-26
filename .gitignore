@@ -1,3 +1,6 @@
 .env
 .hugo_build.lock
 *.code-workspace
+public/
+resources/
+
