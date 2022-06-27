@@ -12,9 +12,8 @@ The theme that I am using is [hugo-PaperMod](https://github.com/adityatelange/hu
 
 Install the following dependencies on your system.
 
-1. [hugo](https://gohugo.io/getting-started/installing/#quick-install)
-2. [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
-4. [make](https://www.gnu.org/software/make/)
+1. [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
+2. [make](https://www.gnu.org/software/make/)
 
 ### building
 

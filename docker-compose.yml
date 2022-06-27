@@ -1,7 +1,6 @@
 version: "3"
-
 services:
-  caddy:
+  server:
     image: caddy:alpine
     container_name: "server_mjindra.eu"
     restart: always
