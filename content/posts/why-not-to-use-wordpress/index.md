@@ -25,5 +25,5 @@ Zusätzlich zu den Sicherheitsproblemen braucht Wordpress auch eine komplette Da
 
 Also gibt es einen einfachen Weg diesen Nachteilen auszuweichen, aber trotzdem eine funktionierende Webseite zu haben? Aber natürlich! Für mich ist die Antwort sehr einfach. Nämlich _Hugo_. Wer Hugo noch nicht kennt, hier eine kleine Erklärung. Hugo ist ein _statischer Webseiten-Generator_. Statische Webseiten sind im Gegensatz zu dynamischen um einiges leichter an Computerressourcen und der Inhalt bleibt immer gleich. Hugo erstellt aus ein paar Konfigurations- und Inhaltsdateien eine komplette Webseite und ist super schnell. Jede Webseite kann ihr eigenes Theme oder ein schon vorhandenes nutzen. Allein diese Webseite ist mir Hugo generiert worden. Für die vielen Features, die es einem anbietet, müsste dieser Text noch länger sein. Und allein von der Sicherheit sind statische Webseiten um einiges besser, da sie nur ein paar HTML, CSS und JavaScript Dateien sind.
 
-Wenn Sie Hugo also mal ausprobieren wollen, folgen Sie dem [Video](https://www.youtube.com/watch?v=hjD9jTi_DQ4) von `Envato Tuts+`
+Wenn Sie Hugo also mal ausprobieren wollen, folgen Sie dem [Video](https://www.youtube.com/watch?v=hjD9jTi_DQ4) von _Envato Tuts+_
 

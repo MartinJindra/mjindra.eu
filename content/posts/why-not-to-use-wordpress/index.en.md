@@ -25,4 +25,4 @@ In addition to the security issues, Wordpress also needs a full database like My
 
 So is there an easy way to avoid these disadvantages, but still have a working website? But of course! For me, the answer is very simple. Namely _Hugo_. For those who don't know Hugo yet, here's a little explanation. Hugo is a _static website generator_. Static web pages are much lighter on computer resources than dynamic ones and the content always stays the same. Hugo creates a complete web page from a few configuration and content files and is super fast. Each website can use its own theme or an existing one. This website alone was generated with Hugo. For the many features it offers you, this text would have to be even longer. And from a security point of view alone, static websites are much better, since they are just a few HTML, CSS and JavaScript files.
 
-If you want to try Hugo look at the [video](https://www.youtube.com/watch?v=hjD9jTi_DQ4) from `Envato Tuts+`
+If you want to try Hugo look at the [video](https://www.youtube.com/watch?v=hjD9jTi_DQ4) from _Envato Tuts+_
