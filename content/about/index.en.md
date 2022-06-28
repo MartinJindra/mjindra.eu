@@ -1,5 +1,6 @@
 ---
 title: "About me"
+date: "2022-02-14"
 author: "Martin Jindra"
 aliases: ["/me"]
 tags: []
