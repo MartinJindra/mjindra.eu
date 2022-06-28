@@ -17,10 +17,10 @@ serve: submodules
 	$(HUGO) serve
 
 build_with_draft: submodules
-	$(HUGO) -D
+	$(HUGO) -DF
 
 serve_with_draft: submodules
-	$(HUGO) serve -D
+	$(HUGO) serve -DF
 
 verify:
 	@if [[ -n "$$($(DOCKER_COMPOSE) config -q)" ]]; then echo "[ERR] docker-compose.yml unvalid"; exit 1; fi
