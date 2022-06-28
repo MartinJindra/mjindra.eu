@@ -128,7 +128,7 @@ su postgres
 psql -U gitea -d giteadb
 ```
 
-[1]
+Source [^1]
 
 ----
 
@@ -238,14 +238,14 @@ sudo chmod 750 /etc/gitea
 sudo chmod 640 /etc/gitea/app.ini
 ```
 
-[2]
+Source [^2]
 
 And if everything worked, your own Git server should work :+1:. Additional features can also be enabled, just visit the [documentation](https://docs.gitea.io/en-us/) of Gitea. But if something didn't work, a search on the internet or forums can't hurt.
 
-----
+If you want to look at a functional Gitea server visit [^3].
 
 ## Sources
 
-1. Database Preparation - Docs --> [Online](https://docs.gitea.io/en-us/database-prep/#postgresql)
-2. Installation from binary --> [Online](https://docs.gitea.io/en-us/install-from-binary/)
-3. Link to server [online](https://git.mjindra.eu)
+[^1]: Database Preparation - Docs --> [Online](https://docs.gitea.io/en-us/database-prep/#postgresql)
+[^2]: Installation from binary --> [Online](https://docs.gitea.io/en-us/install-from-binary/)
+[^3]: Link to server [online](https://git.mjindra.eu)
