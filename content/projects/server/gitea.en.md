@@ -1,10 +1,10 @@
 ---
-title: "Git"
+title: "Gitea"
 date: "2022-06-22"
 author: "Martin Jindra"
 aliases: []
 tags: []
-summary: "Personal Gitea server"
+summary: "Personal Git server"
 ShowToc: true
 TocOpen: true
 comments: false
