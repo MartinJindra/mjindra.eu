@@ -13,7 +13,8 @@ The theme that I am using is [hugo-PaperMod](https://github.com/adityatelange/hu
 Install the following dependencies on your system.
 
 1. [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
-2. [make](https://www.gnu.org/software/make/)
+2. [hugo](https://gohugo.io/getting-started/installing/) (not needed for building)
+3. [make](https://www.gnu.org/software/make/)
 
 ### building
 
