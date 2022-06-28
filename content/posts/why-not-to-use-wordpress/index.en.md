@@ -1,6 +1,6 @@
 ---
 title: "Why Not to Use Wordpress"
-date: "2022-06-29"
+date: "2022-06-28"
 author: "Martin Jindra"
 aliases: []
 tags: []
@@ -8,7 +8,7 @@ description: ""
 ShowToc: false
 TocOpen: false
 comments: false
-draft: true
+draft: false
 weight: 3
 cover:
     image: "why-not-to-use-wordpress.png"

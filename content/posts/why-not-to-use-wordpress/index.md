@@ -8,7 +8,7 @@ description: "Wordpress. Manche lieben es. Oder manche hassen es. Eines steht fe
 ShowToc: false
 TocOpen: false
 comments: false
-draft: true
+draft: false
 weight: 3
 cover:
     image: "why-not-to-use-wordpress.png"
