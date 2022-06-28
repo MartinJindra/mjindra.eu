@@ -16,13 +16,9 @@ My name is Martin Jindra. I am a programmer and server administrator. I have var
 
 ## Contact
 
-Contact me by
-
 + eMail: [martin@mjindra.eu](mailto:martin@mjindra.eu).
 + LinkedIn [www.linkedin.com/in/martinjindra](https://www.linkedin.com/in/martinjindra)
 
 ### Source code
 
-Want to know how this website was build
-
-+ source code of this website --> [online](https://github.com/MartinJindra/mjindra.eu)
+Source code of this website --> [online](https://github.com/MartinJindra/mjindra.eu)

@@ -16,11 +16,7 @@ Mein Name ist Martin Jindra. Ich bin ein Programmierer und Serveradminstrator. I
 
 ## Kontakt
 
-Wenn Sie mit mir Kontakt aufnehmen, kontakieren Sie mich per
-
 + E-Mail: [martin@mjindra.eu](mailto:martin@mjindra.eu).
 + LinkedIn [www.linkedin.com/in/martinjindra](https://www.linkedin.com/in/martinjindra)
 
-Wollen Sie wissen, wie diese Webseite gebaut wurde.
-
-+ Quellcode dieser Webseite --> [Online](https://github.com/MartinJindra/mjindra.eu)
+Quellcode dieser Webseite --> [Online](https://github.com/MartinJindra/mjindra.eu)
