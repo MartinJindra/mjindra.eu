@@ -4,7 +4,7 @@ date: "2022-06-28"
 author: "Martin Jindra"
 aliases: []
 tags: []
-description: ""
+description: "Wordpress. Some love it. Or some hate it. One thing is for sure, it is very widely used."
 ShowToc: false
 TocOpen: false
 comments: false
@@ -17,7 +17,7 @@ cover:
 
 When a person wants to make his/her own blog or personal website, there are many options to choose from. Some may only want to make their own page, while others may want to make a complete blog where readers can subscribe to a newsletter, where you can comment down below and where the interface is easy to use. The latter is all well and good, but does it have to be so complicated?
 
-Many pages on the internet are _dynamic websites_, which are websites that often have a complete setup behind them and show their content differently. A good example is Amazon. It displays what it thinks is best for the visitor. It changes its behavior depending on what you click on, whether you are logged in or not, or whether you enter something in the search. The content is never the same.
+Many pages on the internet are _dynamic websites_, which are websites that often have a complete setup behind them and the content of the page can dynamicly change. A good example is Amazon. It displays what it thinks is best for the visitor. It changes its behavior depending on what you click on, whether you are logged in or not, or whether you enter something in the search. The content is never the same.
 
 The most popular CMS (Content Management System) that manages websites is Wordpress. It's user numbers are incredibly large. According to an [estimate](https://w3techs.com/technologies/overview/content_management) by W<sup>3</sup>Techs, it is used by 43 % of all websites. This has the major drawback that Wordpress is a big target for hackers. Not only is it big when it comes to user numbers, but it's also an "easy" one. In recent years, countless vulnerabilities and security holes have been found. This simply makes it unsafe to keep such a site online, especially if you forget to install updates in time. If you just look around a bit, you will always find cases of outdated wordpress blogs that have been taken over by hackers. Additionally, even a version that is kept up to date should still be properly secured. Long and hard to guess passwords should be used. One should change the login page address for admins and much more. That for just a simple blog?
 
