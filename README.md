@@ -10,6 +10,8 @@ The theme that I am using is [hugo-PaperMod](https://github.com/adityatelange/hu
 
 ### dependencies
 
+If you only want to build the website with the [Makefile](Makefile) `hugo` doesn't have to be installed, only `docker` is required for that. But if you want to do anything else, `hugo` has to be installed on your system. 
+
 Install the following dependencies on your system.
 
 1. [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/)
