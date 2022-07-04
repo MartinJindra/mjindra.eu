@@ -14,19 +14,32 @@ weight: 2
 
 ## Why Gitea?
 
-Some people wonder why I don't just use Github or Gitlab. Why do I host my own server, which costs extra power, performance and money? Honestly, I wanted to try if it was possible. To create a place on where I can host software which I have written and need. Of course, most people should use these services as they simply offer more convenience.
+Some people wonder why I don't just use Github or Gitlab.
+Why do I host my own server, which costs extra power, performance and money?
+Honestly, I wanted to try if it was possible.
+To create a place on where I can host software which I have written and need.
+Of course, most people should use these services as they simply offer more convenience.
 
 ## How to set up Gitea?
 
 ### Basics
 
-Gitea is a very simple application to host. The only conditions it has are a reverse proxy, a DBMS (Database Management System) and the application itself. According to the [documentation](https://docs.gitea.io/en-us/database-prep/), you can choose between multiple DBMSs. I know the agony of choice :wink:. MySQL, PostgreSQL, SQLite and MSSQL can be used. For my server I decided to use PostgreSQL.
+Gitea is a very simple application to host.
+The only conditions it has are a reverse proxy, a DBMS (Database Management System) and the application itself.
+According to the [documentation](https://docs.gitea.io/en-us/database-prep/), you can choose between multiple DBMSs.
+I know the agony of choice :wink:.
+MySQL, PostgreSQL, SQLite and MSSQL can be used.
+For my server I decided to use PostgreSQL.
 
-For the reverse proxy various choices can also be used. The decision for me was also here really easy. Nginx. Why not? It is lighter, faster and easier to configure than Apache HTTP Server.
+For the reverse proxy various choices can also be used.
+The decision for me was also here really easy.
+Nginx.
+Why not? It is lighter, faster and easier to configure than Apache HTTP Server.
 
 ### Requirements
 
-Debian 11 is used for this tutorial. The setup requires the following prerequisites.
+Debian 11 is used for this tutorial.
+The setup requires the following prerequisites.
 
 - [x] *root* privileges on the server
 - [x] Port 80 (HTTP) and port 443 (HTTPS) are freely accessible
@@ -70,7 +83,9 @@ ssh user@git.domain.com
 
 ### DBMS
 
-We now install the necessary DBMS, which Gitea needs to work. As mentioned above, different types of a DB can be used here. I decide to use PostgreSQL, because I have more positive experience than, for example, MySQL.
+We now install the necessary DBMS, which Gitea needs to work.
+As mentioned above, different types of a DB can be used here.
+I decide to use PostgreSQL, because I have more positive experience than, for example, MySQL.
 
 Since we are working on a Linux machine, we can simply use a package manager, like apt, to install our software.
 
@@ -78,9 +93,13 @@ Since we are working on a Linux machine, we can simply use a package manager, li
 sudo apt install postgresql-13
 ```
 
-apt installs the management system for you and makes sure that it restarts automatically after a reboot. Debian 11 uses the older version 13 of PostgreSQL.
+apt installs the management system for you and makes sure that it restarts automatically after a reboot.
+Debian 11 uses the older version 13 of PostgreSQL.
 
-We start with the configuration of the DBMS to provide a bit more security. The changes take place in the file `postgresql.conf` in the path `/etc/postgresql/13/main/`. So use your favorite terminal editor like _nano_ or _vim_. The option `password_encryption` should get the value `scram-sha-256` to use a secure hashing method.
+We start with the configuration of the DBMS to provide a bit more security.
+The changes take place in the file `postgresql.conf` in the path `/etc/postgresql/13/main/`.
+So use your favorite terminal editor like _nano_ or _vim_.
+The option `password_encryption` should get the value `scram-sha-256` to use a secure hashing method.
 
 ```
 password_encryption = scram-sha-256
@@ -92,13 +111,16 @@ Then restart the DBMS to apply the changes.
 sudo systemctl restart postgresql
 ```
 
-Now we can connect and set up a user, which will be used by Gitea to store the data. To do this, we need to run the `psql` command as the _postgres_ user.
+Now we can connect and set up a user, which will be used by Gitea to store the data.
+To do this, we need to run the `psql` command as the _postgres_ user.
 
 ```
 su -c 'psql' - postgres
 ```
 
-We are now in the PostgreSQL shell and a little knowledge of SQL can never hurt. So we use these skills to create the new user named _gitea_ with the database _giteadb_. You can also use another name, but it must be inserted later instead of _gitea_ or _giteadb_.
+We are now in the PostgreSQL shell and a little knowledge of SQL can never hurt.
+So we use these skills to create the new user named _gitea_ with the database _giteadb_.
+You can also use another name, but it must be inserted later instead of _gitea_ or _giteadb_.
 
 PLEASE USE A SECURE PASSWORD.
 
@@ -134,9 +156,13 @@ Source [^1]
 
 ### Nginx
 
-Now it depends on how we want to use the server. You can use it only for Gitea or host other services as well. For this I would recommend reading more into the [Nginx docs](https://nginx.org/en/docs/). I will set up the server to run only Gitea on it.
+Now it depends on how we want to use the server.
+You can use it only for Gitea or host other services as well.
+For this I would recommend reading more into the [Nginx docs](https://nginx.org/en/docs/).
+I will set up the server to run only Gitea on it.
 
-It is very useful if the git server gets a subdomain like `git`. That way we don't have to buy a new domain every time we want to do something new.
+It is very useful if the git server gets a subdomain like `git`.
+That way we don't have to buy a new domain every time we want to do something new.
 
 Don`t worry the DBMS was the hardest part :wink:.
 
@@ -146,7 +172,8 @@ Just install Nginx.
 sudo apt install nginx
 ```
 
-Create the file `/etc/nginx/sites-available/gitea` and add the content. Change the value `git.domain.com` with your own domain.
+Create the file `/etc/nginx/sites-available/gitea` and add the content.
+Change the value `git.domain.com` with your own domain.
 
 ```
 server {
@@ -240,7 +267,9 @@ sudo chmod 640 /etc/gitea/app.ini
 
 Source [^2]
 
-And if everything worked, your own Git server should work :+1:. Additional features can also be enabled, just visit the [documentation](https://docs.gitea.io/en-us/) of Gitea. But if something didn't work, a search on the internet or forums can't hurt.
+And if everything worked, your own Git server should work :+1:.
+Additional features can also be enabled, just visit the [documentation](https://docs.gitea.io/en-us/) of Gitea.
+But if something didn't work, a search on the internet or forums can't hurt.
 
 If you want to look at a functional Gitea server visit [^3].
 

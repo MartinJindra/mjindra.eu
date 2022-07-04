@@ -11,7 +11,10 @@ draft: false
 weight: 3
 ---
 
-My name is Martin Jindra. I am a programmer and server administrator. I have various skills in computer science. My skills go from programming to hosting various programs and services.
+My name is Martin Jindra.
+I am a programmer and server administrator.
+I have various skills in computer science.
+My skills go from programming to hosting various programs and services.
 
 ![profile](/img/profile.png#center)
 
