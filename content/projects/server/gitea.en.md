@@ -57,25 +57,25 @@ Important information in this manual:
 
 To connect to the server.
 
-```
+```shell
 ssh user@git.domain.com
 ```
 
 Before doing anything else, the system should have the latest security and feature updates.
 
-```
+```shell
 sudo apt update && sudo apt upgrade
 ```
 
 In some cases you should reboot if e.g. the kernel got an update and then connect to the server again.
 
-```
+```shell
 sudo systemctl reboot
 ```
 
 Reconnect again.
 
-```
+```shell
 ssh user@git.domain.com
 ```
 
@@ -89,7 +89,7 @@ I decide to use PostgreSQL, because I have more positive experience than, for ex
 
 Since we are working on a Linux machine, we can simply use a package manager, like apt, to install our software.
 
-```
+```shell
 sudo apt install postgresql-13
 ```
 
@@ -101,20 +101,20 @@ The changes take place in the file `postgresql.conf` in the path `/etc/postgresq
 So use your favorite terminal editor like _nano_ or _vim_.
 The option `password_encryption` should get the value `scram-sha-256` to use a secure hashing method.
 
-```
+```ini
 password_encryption = scram-sha-256
 ```
 
 Then restart the DBMS to apply the changes.
 
-```
+```shell
 sudo systemctl restart postgresql
 ```
 
 Now we can connect and set up a user, which will be used by Gitea to store the data.
 To do this, we need to run the `psql` command as the _postgres_ user.
 
-```
+```shell
 su -c 'psql' - postgres
 ```
 
@@ -124,7 +124,7 @@ You can also use another name, but it must be inserted later instead of _gitea_ 
 
 PLEASE USE A SECURE PASSWORD.
 
-```
+```sql
 CREATE ROLE gitea WITH LOGIN PASSWORD 'password123';
 CREATE DATABASE giteadb WITH OWNER gitea TEMPLATE template0 ENCODING UTF8;
 exit
@@ -132,20 +132,20 @@ exit
 
 To give the user access to the local DB, add this line in the file `pg_hba.conf` in the path `/etc/postgresql/13/main/`.
 
-```
+```ini
 # TYPE  DATABASE        USER            ADDRESS                 METHOD
 local   giteadb         gitea                                   scram-sha-256
 ```
 
 And restart the DBMS again.
 
-```
+```shell
 sudo systemctl restart postgresql
 ```
 
 To test the DB, run.
 
-```
+```shell
 su postgres
 psql -U gitea -d giteadb
 ```
@@ -168,14 +168,14 @@ Don`t worry the DBMS was the hardest part :wink:.
 
 Just install Nginx.
 
-```
+```shell
 sudo apt install nginx
 ```
 
 Create the file `/etc/nginx/sites-available/gitea` and add the content.
 Change the value `git.domain.com` with your own domain.
 
-```
+```nginx
 server {
     listen 80;
     listen [::]:80;
@@ -205,14 +205,14 @@ Please don't forget that if you want to have a certificate, you agree to their T
 
 Install `certbot` and get a certificate.
 
-```
+```shell
 sudo apt install certbot python3-certbot-nginx
 sudo certbot certonly -d git.domain.com -m user@domain.com --agree-tos --standalone
 ```
 
 And finally restart Nginx.
 
-```
+```shell
 sudo systemctl restart nginx
 ```
 
@@ -222,19 +222,19 @@ Check on [https://dl.gitea.io/gitea/](https://dl.gitea.io/gitea/) which is the l
 
 Download Gitea with `wget`.
 
-```
+```shell
 wget -O gitea https://dl.gitea.io/gitea/1.16.9/gitea-1.16.9-linux-amd64
 ```
 
 Install `git` in any case.
 
-```
+```shell
 sudo apt install git
 ```
 
 Add a new user.
 
-```
+```shell
 sudo adduser \
    --system \
    --shell /bin/bash \
@@ -247,7 +247,7 @@ sudo adduser \
 
 Set the permissions.
 
-```
+```shell
 sudo mkdir -p /var/lib/gitea/{custom,data,log}
 sudo chown -R git:git /var/lib/gitea/
 sudo chmod -R 750 /var/lib/gitea/
@@ -260,7 +260,7 @@ Visit the Gitea page and set up the information correctly.
 
 Gitea changed the permissions from the `/etc/gitea` directory during the setup, so you have to set them again.
 
-```
+```shell
 sudo chmod 750 /etc/gitea
 sudo chmod 640 /etc/gitea/app.ini
 ```

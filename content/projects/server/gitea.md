@@ -57,25 +57,25 @@ Wichtige Informationen in dieser Anleitung:
 
 Um eine Verbindung zum Server aufzubauen.
 
-```
+```shell
 ssh user@git.domain.com
 ```
 
 Bevor irgendwas anderes gemacht wird, soll das System die aktuellsten Sicherheit- und Featureupdates haben.
 
-```
+```shell
 sudo apt update && sudo apt upgrade
 ```
 
 In manchen Fällen sollte man neu starten, falls z.B. der Kernel ein Update bekommen hat und sich dann wieder zum Server zu verbinden.
 
-```
+```shell
 sudo systemctl reboot
 ```
 
 Wieder eine Verbindung aufbauen.
 
-```
+```shell
 ssh user@git.domain.com
 ```
 
@@ -89,7 +89,7 @@ Ich entscheide mich für PostgreSQL, da ich mehr positive Erfahrung habe als z.B
 
 Da wir auf einer Linux Maschine arbeiten, können wir einfach einen Paketmanager, wie apt nutzen, um unsere Software zu installieren.
 
-```
+```shell
 sudo apt install postgresql-13
 ```
 
@@ -101,20 +101,20 @@ Die Änderungen finden in der Datei `postgresql.conf` im Pfad `/etc/postgresql/1
 Nimm also deinen liebsten Terminaleditor wie _nano_ oder _vim_ zur Hand.
 Die Option `password_encryption` sollte den Wert `scram-sha-256` bekommen, um eine sichere Hashing-Methode zu nutzen.
 
-```
+```ini
 password_encryption = scram-sha-256
 ```
 
 Dann die DBMS neu starten, um die Änderungen anzuwenden.
 
-```
+```shell
 sudo systemctl restart postgresql
 ```
 
 Jetzt können wir uns eine Verbindung aufbauen und einen User einrichten, welcher von Gitea zur Speicherung der Daten genutzt wird.
 Dafür müssen wir als _postgres_ User den Befehl `psql` ausführen.
 
-```
+```shell
 su -c 'psql' - postgres
 ```
 
@@ -124,7 +124,7 @@ Man kann auch einen anderen Namen nutzen, dieser muss dann aber später anstelle
 
 BITTE EIN SICHERES PASSWORT NUTZEN.
 
-```
+```sql
 CREATE ROLE gitea WITH LOGIN PASSWORD 'password123';
 CREATE DATABASE giteadb WITH OWNER gitea TEMPLATE template0 ENCODING UTF8;
 exit
@@ -132,20 +132,20 @@ exit
 
 Um dem Benutzer Zugriff auf die lokale DB zu geben, füge in der Datei `pg_hba.conf` im Pfad `/etc/postgresql/13/main/` diese Zeile hinzu.
 
-```
+```ini
 # TYPE  DATABASE        USER            ADDRESS                 METHOD
 local   giteadb         gitea                                   scram-sha-256
 ```
 
 Und das DBMS wieder neu starten.
 
-```
+```shell
 sudo systemctl restart postgresql
 ```
 
 Um die DB zu testen, führ aus.
 
-```
+```shell
 su postgres
 psql -U gitea -d giteadb
 ```
@@ -168,14 +168,14 @@ Keine Sorge das DBMS war das Schwerste :wink:.
 
 Einfach Nginx installieren.
 
-```
+```shell
 sudo apt install nginx
 ```
 
 Erstelle die Datei `/etc/nginx/sites-available/gitea` und füge den Inhalt ein.
 Ändere den Wert `git.domain.com` mit deiner eigenen Domain.
 
-```
+```nginx
 server {
     listen 80;
     listen [::]:80;
@@ -205,14 +205,14 @@ Bitte nicht vergessen, dass wenn man ein Zertifikat haben will, stimmt man deren
 
 Installiere `certbot` und hol dir ein Zertifikat.
 
-```
+```shell
 sudo apt install certbot python3-certbot-nginx
 sudo certbot certonly -d git.domain.com -m user@domain.com --agree-tos --standalone
 ```
 
 Und zuletzt starte Nginx neu.
 
-```
+```shell
 sudo systemctl restart nginx
 ```
 
@@ -222,19 +222,19 @@ Schau auf [https://dl.gitea.io/gitea/](https://dl.gitea.io/gitea/) nach, welche 
 
 Lade dir mit `wget` Gitea herunter.
 
-```
+```shell
 wget -O gitea https://dl.gitea.io/gitea/1.16.9/gitea-1.16.9-linux-amd64
 ```
 
 Installiere auf jeden Fall `git`.
 
-```
+```shell
 sudo apt install git
 ```
 
 Füge einen neuen Nutzer hinzu.
 
-```
+```shell
 sudo adduser \
    --system \
    --shell /bin/bash \
@@ -247,7 +247,7 @@ sudo adduser \
 
 Setze die Berechtigungen.
 
-```
+```shell
 sudo mkdir -p /var/lib/gitea/{custom,data,log}
 sudo chown -R git:git /var/lib/gitea/
 sudo chmod -R 750 /var/lib/gitea/
@@ -260,7 +260,7 @@ Besuche die Seite von Gitea und richte die Information richtig ein.
 
 Gitea hat während der Einrichtung die Berechtigungen vom Verzeichnis `/etc/gitea` geändert, also muss man diese nochmal setzen.
 
-```
+```shell
 sudo chmod 750 /etc/gitea
 sudo chmod 640 /etc/gitea/app.ini
 ```
