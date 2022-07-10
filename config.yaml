@@ -97,7 +97,7 @@ params:
       url: "https://www.linkedin.com/in/martinjindra"
     - name: Instagram
       url: "https://www.instagram.com/mjindra_eu"
-    - name: Github
-      url: "https://github.com/MartinJindra"
+    - name: Gitlab
+      url: "https://gitlab.com/MartinJindra/"
     - name: RSS
       url: "index.xml"

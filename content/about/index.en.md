@@ -25,4 +25,4 @@ My skills go from programming to hosting various programs and services.
 
 ### Source code
 
-Source code of this website --> [online](https://github.com/MartinJindra/mjindra.eu)
+Source code of this website --> [online](https://gitlab.com/MartinJindra/mjindra.eu)
