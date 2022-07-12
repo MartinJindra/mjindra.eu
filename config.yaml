@@ -12,6 +12,11 @@ relativeURLs: false
 enableEmoji: true
 defaultContentLanguage: de
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 outputs:
   home:
     - HTML
