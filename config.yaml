@@ -44,7 +44,7 @@ languages:
       - name: projects
         url: projects
         weight: 3
-      - name: archives
+      - name: 📁
         url: archives
         weight: 4
       - name: 🔎
@@ -71,7 +71,7 @@ languages:
       - name: Projekte
         url: projects
         weight: 3
-      - name: Archive
+      - name: 📁
         url: archives
         weight: 4
       - name: 🔎

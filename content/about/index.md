@@ -24,7 +24,7 @@ Die meisten meiner Programme sind auf [Gitlab](https://gitlab.com/MartinJindra),
 ## Kontakt
 
 + E-Mail: [martin@mjindra.eu](mailto:martin@mjindra.eu).
-+ LinkedIn [www.linkedin.com/in/martinjindra](https://www.linkedin.com/in/martinjindra)
++ LinkedIn: [www.linkedin.com/in/martinjindra](https://www.linkedin.com/in/martinjindra)
 
 Quellcode dieser Webseite --> [Online](https://gitlab.com/MartinJindra/mjindra.eu)
 
