@@ -30,4 +30,3 @@ up: build verify
 
 down: verify
 	$(DOCKER_COMPOSE) down
-
