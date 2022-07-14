@@ -7,5 +7,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - $PWD/Caddyfile:/etc/caddy/Caddyfile:ro
-      - $PWD/public/:/usr/share/caddy/:ro
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./public/:/usr/share/caddy/:ro
