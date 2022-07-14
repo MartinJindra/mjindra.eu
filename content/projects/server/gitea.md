@@ -9,7 +9,7 @@ ShowToc: true
 TocOpen: true
 comments: false
 draft: false
-weight: 2
+weight: 3
 ---
 
 ## Warum Gitea?

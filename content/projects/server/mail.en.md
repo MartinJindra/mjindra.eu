@@ -1,6 +1,6 @@
 ---
 title: "eMail"
-date: "2021-06-26"
+date: "2022-07-14"
 author: "Martin Jindra"
 aliases: []
 tags: []
@@ -8,7 +8,7 @@ summary: "Personal Mail-in-a-Box server"
 ShowToc: false
 TocOpen: false
 comments: false
-draft: true
+draft: false
 weight: 2
 ---
 
