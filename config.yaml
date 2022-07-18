@@ -44,10 +44,10 @@ languages:
       - name: projects
         url: projects
         weight: 3
-      - name: 📁
+      - name: 📚
         url: archives
         weight: 4
-      - name: 🔎
+      - name: 🔍
         url: search
         weight: 5
 
@@ -71,10 +71,10 @@ languages:
       - name: Projekte
         url: projects
         weight: 3
-      - name: 📁
+      - name: 📚
         url: archives
         weight: 4
-      - name: 🔎
+      - name: 🔍
         url: search
         weight: 5
 
