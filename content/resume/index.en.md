@@ -5,6 +5,7 @@ author: "Martin Jindra"
 aliases: ["/cv"]
 tags: []
 summary: "resume"
+ShowReadingTime: false
 ShowToc: false
 TocOpen: false
 comments: false

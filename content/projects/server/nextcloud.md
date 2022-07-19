@@ -5,6 +5,7 @@ author: "Martin Jindra"
 aliases: ["/nextcloud", "/cloud"]
 tags: ["self-hosted"]
 summary: "Persönlicher Nextcloud Server"
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false

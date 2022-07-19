@@ -5,6 +5,7 @@ author: "Martin Jindra"
 aliases: ["/email"]
 tags: ["self-hosted"]
 summary: "Persönlicher Mail-in-a-Box Server"
+ShowReadingTime: true
 ShowToc: true
 TocOpen: true
 comments: false

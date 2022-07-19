@@ -5,6 +5,7 @@ author: "Martin Jindra"
 aliases: ["/books"]
 tags: ["self-hosted"]
 summary: "Personal eBook server"
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false

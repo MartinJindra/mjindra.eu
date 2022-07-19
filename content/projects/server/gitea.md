@@ -5,6 +5,7 @@ author: "Martin Jindra"
 aliases: ["/git"]
 tags: ["self-hosted"]
 summary: "Persönlicher Git Server"
+ShowReadingTime: true
 ShowToc: true
 TocOpen: true
 comments: false
