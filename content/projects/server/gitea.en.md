@@ -3,7 +3,7 @@ title: "Gitea"
 date: "2022-06-22"
 author: "Martin Jindra"
 aliases: []
-tags: []
+tags: ["self-hosted"]
 summary: "Personal Git server"
 ShowToc: true
 TocOpen: true
