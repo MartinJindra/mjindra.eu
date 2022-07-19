@@ -1,6 +1,6 @@
 ---
-title: "Über mich"
-aliases: ["/mich"]
+title: "About"
+aliases: ["/me"]
 tags: []
 ShowReadingTime: false
 ShowToc: false
