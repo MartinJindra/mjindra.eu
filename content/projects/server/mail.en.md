@@ -12,7 +12,7 @@ draft: false
 weight: 2
 ---
 
-## Selfhosted e-mail server
+## Self-hosted e-mail server
 
 Having your own email server may seem like a strange idea to many people. Why should I run my own server, which sends and receives my e-mails.
 

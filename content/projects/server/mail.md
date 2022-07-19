@@ -14,7 +14,7 @@ weight: 2
 
 ## Eigener E-Mail-Server
 
-Ein eigener E-Mail-Server ist für viele Menschen vielleicht eine komische Idee. Wieso soll ich meine eigenen Server betreiben, welcher meine E-Mails verschickt und empfängt.
+Ein eigener E-Mail-Server ist für viele Menschen vielleicht eine komische Idee. Wieso soll ich meinen eigenen Server betreiben, der meine E-Mails verschickt und empfängt?
 
 > Ist das nicht schwer?
 
@@ -22,7 +22,7 @@ An sich. Ja! Jedes Projekt hat seine Hürden, aber man muss nicht das Rad neu er
 
 ### Mailinabox
 
-Eines ist [Mailinabox](https://mailinabox.email). Dieses unglaubliche Projekt macht es unglaublich einfach einen eigenen E-Mail-Server zu erstellen. Die einzigen Bedingungen, die es hat sind
+Eines ist [Mailinabox](https://mailinabox.email). Dieses unglaubliche Projekt macht es unglaublich einfach einen eigenen E-Mail-Server zu erstellen. Die einzigen Bedingungen, die es hat, sind
 
 - [x] einen Ubuntu 18.04 Server,
 - [x] eine öffentliche IPv4-Adresse, welche nicht auf einer Blacklist ist,
