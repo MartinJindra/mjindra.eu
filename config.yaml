@@ -75,7 +75,7 @@ languages:
         url: projects
         weight: 3
       - name: Lebenslauf
-        url: lebenslauf
+        url: resume
         weight: 4
       - name: 📚
         url: archives
