@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 author: "Martin Jindra"
-aliases: ["/cv"]
+aliases: ["/cv", "/resume"]
 tags: []
 summary: "resume"
 ShowReadingTime: false
