@@ -44,9 +44,9 @@ languages:
       - name: projects
         url: projects
         weight: 3
-      - name: resume
-        url: resume
-        weight: 4
+#      - name: resume
+#        url: resume
+#        weight: 4
       - name: 📚
         url: archives
         weight: 5
@@ -74,9 +74,9 @@ languages:
       - name: Projekte
         url: projects
         weight: 3
-      - name: Lebenslauf
-        url: resume
-        weight: 4
+#      - name: Lebenslauf
+#        url: resume
+#        weight: 4
       - name: 📚
         url: archives
         weight: 5
