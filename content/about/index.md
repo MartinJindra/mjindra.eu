@@ -22,8 +22,9 @@ Die meisten meiner Programme sind auf meinem [Github](https://github.com/MartinJ
 
 ## Kontakt
 
-+ E-Mail: [martin@mjindra.eu](mailto:martin@mjindra.eu).
++ E-Mail: [martin@mjindra.eu](mailto:martin@mjindra.eu)
 + LinkedIn: [www.linkedin.com/in/martinjindra](https://www.linkedin.com/in/martinjindra)
++ Instagram: [www.instagram.com/mjindra_eu](https://www.instagram.com/mjindra_eu)
 
 Quellcode dieser Webseite --> [Online](https://github.com/MartinJindra/mjindra.eu)
 
