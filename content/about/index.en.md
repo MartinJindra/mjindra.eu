@@ -18,7 +18,7 @@ My skills go from programming to providing various services.
 I have been fascinated with software for several years and my skills have only grown since then. My strengths include working in a team, finding solutions to problems quickly, and working with new software.
 Most of my programs are on my [Gitlab](https://gitlab.com/MartinJindra).
 
-![profile](/img/profile.png#center)
+![profile](/img/profile_small.png#center)
 
 ## Contact
 

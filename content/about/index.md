@@ -18,7 +18,7 @@ Meine Skills gehen vom Programmieren bis zum Bereitstellen von diversen Services
 Seit einigen Jahren bin ich mit Software fasziniert und meine Fähigkeiten sind seither nur gewachsen. Meine Stärken beinhalten das Arbeiten in einem Team, schnell Lösungen für Probleme zu finden und mit neuer Software zu arbeiten.
 Die meisten meiner Programme sind auf meinem [Github](https://github.com/MartinJindra).
 
-![profile](/img/profile.png#center)
+![profile](/img/profile_small.png#center)
 
 ## Kontakt
 
