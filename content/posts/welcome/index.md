@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 comments: false
 draft: false
-weight: 3
+weight: 1
 ---
 
 In unregelmäßigen Abständen veröffentliche ich immer wieder meine Meinung über verschiedenstes. Es wird im Großen und Ganzen bei technischen Themen bleiben, aber ab und zu könnte vielleicht etwas anderes kommen.

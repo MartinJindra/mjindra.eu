@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 comments: false
 draft: false
-weight: 3
+weight: 1
 ---
 
 In irregular intervals I will publish my opinion about various subjects. It will mostly stay at technical topics, but from time to time something else might come up.
