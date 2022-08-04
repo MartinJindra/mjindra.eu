@@ -29,7 +29,7 @@ languages:
     profileMode:
       enabled: true
       title: "Welcome strange visitor"
-      imageUrl: img/profile.png
+      imageUrl: img/profile_medium.png
       buttons:
       - name: about
         url: about
@@ -59,7 +59,7 @@ languages:
     profileMode:
       enabled: true
       title: "Willkommen, Fremder"
-      imageUrl: img/profile.png
+      imageUrl: img/profile_medium.png
       buttons:
       - name: Über
         url: about
