@@ -3,7 +3,7 @@ title: "eMail"
 date: "2022-07-14"
 author: "Martin Jindra"
 aliases: []
-tags: ["self-hosted"]
+tags: ["self-hosted", "privacy"]
 summary: "Personal Mail-in-a-Box server"
 ShowReadingTime: true
 ShowToc: false
