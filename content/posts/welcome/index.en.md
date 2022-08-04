@@ -5,7 +5,7 @@ author: "Martin Jindra"
 aliases: ["/welcome"]
 tags: []
 description: "In this little corner of the internet, I want to take the opportunity to add my two cents on certain things as well."
-ShowReadingTime: false
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false

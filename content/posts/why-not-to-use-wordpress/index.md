@@ -5,7 +5,7 @@ author: "Martin Jindra"
 aliases: []
 tags: []
 description: "Wordpress. Manche lieben es. Oder manche hassen es. Eines steht fest, es ist sehr weit verbreitet."
-ShowReadingTime: false
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false

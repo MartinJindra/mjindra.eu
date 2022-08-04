@@ -5,7 +5,7 @@ author: "Martin Jindra"
 aliases: ["/willkommen"]
 tags: []
 description: "In dieser kleinen Ecke des Internets will ich die Gelegenheit nutzen, um auch meinen Senf bei gewissen Sachen hinzuzugeben."
-ShowReadingTime: false
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false

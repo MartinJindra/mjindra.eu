@@ -5,7 +5,7 @@ author: "Martin Jindra"
 aliases: []
 tags: []
 description: ""
-ShowReadingTime: false
+ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false
