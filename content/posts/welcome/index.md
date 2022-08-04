@@ -1,11 +1,10 @@
 ---
 title: "Willkommen zu meinen Blog."
-date: "2022-07-28"
 author: "Martin Jindra"
 aliases: ["/willkommen"]
 tags: []
 description: "In dieser kleinen Ecke des Internets will ich die Gelegenheit nutzen, um auch meinen Senf bei gewissen Sachen hinzuzugeben."
-ShowReadingTime: true
+ShowReadingTime: false
 ShowToc: false
 TocOpen: false
 comments: false
