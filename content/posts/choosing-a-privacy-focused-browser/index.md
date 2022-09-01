@@ -16,7 +16,8 @@ cover:
     relative: true
 ---
 
-Browser. Dieses Stück an Software benutzen wir so gut wie jeden Tag ohne darüber nachzudenken, was es eigentlich alles kann oder was es im Hintergrund macht.
+Browser. Dieses Stück Software benutzen wir so gut wie jeden Tag ohne darüber nachzudenken, was es eigentlich alles kann oder was es im Hintergrund macht.
 
-Laut [Marktanalyse](https://www.netmarketshare.com/browser-market-share.aspx) benutzen die meisten Menschen am Computer und am Handy Google Chrome.
+Laut [Marktanalyse](https://www.netmarketshare.com/browser-market-share.aspx) benutzen die meisten Menschen sowohl am Computer als auch am Handy Google Chrome.
 
+Das ist nicht überraschend. Überall sieht man mittlerweile diese Software und das hat gute Gründe. 
