@@ -11,7 +11,7 @@ submodules:
 	$(GIT) submodule update --recursive --init
 
 build: submodules
-	@if [  -x "$$(which $(HUGO))" ]; then hugo; else $(DOCKER) build . -t mjindra.eu:latest; $(DOCKER) run --name build_mjindra.eu mjindra.eu; $(DOCKER) cp build_mjindra.eu:/www/public .; $(DOCKER) stop build_mjindra.eu; $(DOCKER) rm build_mjindra.eu; $(DOCKER) rmi mjindra.eu:latest; fi
+	@if [  -x "$$(which $(HUGO))" ]; then hugo; else $(DOCKER) build . -t mjindra.eu:latest; $(DOCKER) run --name build_mjindra.eu mjindra.eu; $(DOCKER) cp build_mjindra.eu:/www/public .; $(DOCKER) stop build_mjindra.eu; $(DOCKER) rm build_mjindra.eu; fi
 
 serve: submodules
 	$(HUGO) serve
