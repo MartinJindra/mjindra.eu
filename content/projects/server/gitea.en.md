@@ -224,7 +224,7 @@ Check on [https://dl.gitea.io/gitea/](https://dl.gitea.io/gitea/) which is the l
 Download Gitea with `wget`.
 
 ```shell
-wget -O gitea https://dl.gitea.io/gitea/1.16.9/gitea-1.16.9-linux-amd64
+wget -O gitea https://dl.gitea.io/gitea/x.x.x/gitea-x.x.x-linux-amd64
 ```
 
 Install `git` in any case.
