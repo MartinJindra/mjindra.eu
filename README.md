@@ -33,22 +33,3 @@ If you only want to preview the website.
 ```
 make serve
 ```
-
-### deployment
-
-The deployment of the website is done by Docker. All the important configurations is done in [config.yaml](config.yaml).
-
-To checkout how a sample website would look execute and visit [http://localhost](http://localhost).
-
-```
-make up
-```
-
-### shutting down
-
-To shutdown all running services execute.
-
-```
-make down
-```
-
