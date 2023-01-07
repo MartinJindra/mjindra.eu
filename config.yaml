@@ -44,15 +44,12 @@ languages:
       - name: projects
         url: projects
         weight: 3
-#      - name: resume
-#        url: resume
-#        weight: 4
       - name: 📚
         url: archives
-        weight: 5
+        weight: 4
       - name: 🔍
         url: search
-        weight: 6
+        weight: 5
 
   de:
     languageName: "English"
@@ -74,15 +71,12 @@ languages:
       - name: Projekte
         url: projects
         weight: 3
-#      - name: Lebenslauf
-#        url: resume
-#        weight: 4
       - name: 📚
         url: archives
-        weight: 5
+        weight: 4
       - name: 🔍
         url: search
-        weight: 6
+        weight: 5
 
 params:
   env: production
@@ -101,10 +95,9 @@ params:
   ShowAllPagesInArchive: true
 
   assets:
-    # favicon
-    favicon: favicon/logo_mjindra.eu_64x64.png
     favicon16x16: favicon/logo_mjindra.eu_16x16.png
     favicon32x32: favicon/logo_mjindra.eu_32x32.png
+    favicon: favicon/logo_mjindra.eu_64x64.png
     apple_touch_icon: favicon/logo_mjindra.eu_apple-touch-icon.png
 
   # social links
