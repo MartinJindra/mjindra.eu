@@ -1,6 +1,6 @@
 ---
 title: "Choosing a Privacy Focused Browser"
-date: "2022-08-04T23:57:04+02:00"
+date: "2023-01-23T15:00:00+02:00"
 author: "Martin Jindra"
 aliases: []
 tags: ["browsers", "privacy"]
