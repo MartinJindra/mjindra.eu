@@ -39,13 +39,15 @@ Die meisten Menschen bleiben normalerweise bei dem was vorinstalliert ist, auße
 **Warum also dieser Artikel?**
 
 Kommen wir also zum eigentlichen Sinn dieses Textes.
-Sollte man Google Chrome nutzen? Ja oder Nein. Und wenn Nein was stattdessen?
+Sollte man Google Chrome nutzen?
+Ja oder Nein.
+Und wenn Nein was stattdessen?
 Die Antwort ist wirklich subjektiv.
 Jeder mag was anderes und hat eventuell nicht dieselben Werte wie andere Eidechsenmenschen (:wink:).
 
 Persönlich gesehen lege ich wert auf Privatsphäre und Sicherheit.
 Und Chrome ist ganz ok mit Sicherheit.
-Wie gesagt es, es ist nicht wie Internet Explorer.
+Wie gesagt, es kein Internet Explorer.
 Es ist brauchbar.
 Aber die Privatsphäre ist nicht vorhanden.
 Es ist mittlerweile kein Geheimnis, dass Chrome Daten sammelt und diese für Werbung nutzt.
@@ -55,9 +57,9 @@ Deswegen wollen viele umsteigen.
 
 **Brave**
 
-Einige die diesen Artikel lesen werden, denken sicher, dass nur Firefox empfohlen wird, aber ist nicht wahr.
+Einige die diesen Artikel lesen werden, denken sicher, dass nur Firefox empfohlen wird, aber das ist nicht wahr.
 Viele Menschen können einfach nicht weg von Chromium.
-Mag das sein, weil es eine Erweiterung gibt, die sonst nirgendwo existiert oder sie die Webtools zu sehr mögen.
+Vielleicht gibt es eine Erweiterung, die sonst nirgendwo existiert oder sie mögen Entwicklerwerkzeuge zu sehr.
 Dann ist Brave eine gute Empfehlung.
 Es ist ein Open-Source Browser, der ebenfalls auf Chromium basiert.
 Im Gegensatz zu Chrome bietet es einen integrierten Ad-Blocker an und blockiert Tracker, also auch die von Google.
@@ -67,6 +69,7 @@ Im Gegensatz zu Chrome bietet es einen integrierten Ad-Blocker an und blockiert 
 Eine relativ unbekannte Option ist Ungoogled Chromium.
 Es ist wie der Name schon sagt Chromium ohne Google.
 Downloads sind für alle gängigen Systeme erhältlich außer Smartphones.
+Es ist perfekt, wenn man was Minimalistisches haben will.
 
 **Firefox**
 
