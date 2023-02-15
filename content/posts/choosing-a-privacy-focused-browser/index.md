@@ -9,7 +9,7 @@ ShowReadingTime: true
 ShowToc: false
 TocOpen: false
 comments: false
-draft: true
+draft: false
 weight: 3
 cover:
     image: "choosing-a-privacy-focused-browser.png"
