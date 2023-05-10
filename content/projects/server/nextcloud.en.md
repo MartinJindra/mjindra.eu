@@ -1,7 +1,7 @@
 ---
 title: "Cloud"
 date: "2021-03-07T12:02:51+01:00"
-author: "Martin Jindra"
+author: ""
 aliases: []
 tags: ["self-hosted", "privacy"]
 summary: "Personal Nextcloud server"

@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: "{{ .Date }}"
-author: "Martin Jindra"
+author: ""
 aliases: []
 tags: []
 description: ""

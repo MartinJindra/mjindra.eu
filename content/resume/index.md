@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-author: "Martin Jindra"
+author: ""
 aliases: ["/lebenslauf"]
 tags: []
 summary: "resume"

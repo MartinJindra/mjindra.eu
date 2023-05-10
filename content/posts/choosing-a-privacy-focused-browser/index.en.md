@@ -1,7 +1,7 @@
 ---
 title: "Choosing a Privacy Focused Browser"
 date: "2023-02-15T10:00:00+02:00"
-author: "Martin Jindra"
+author: ""
 aliases: []
 tags: ["browsers", "privacy"]
 description: "Chrome. One browser with a billion users."

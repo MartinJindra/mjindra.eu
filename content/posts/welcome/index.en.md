@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog."
-author: "Martin Jindra"
+author: ""
 aliases: ["/welcome"]
 tags: []
 description: "In this little corner of the internet, I want to take the opportunity to add my two cents on certain things as well."

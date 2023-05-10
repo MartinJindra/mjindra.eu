@@ -1,7 +1,7 @@
 ---
 title: "Keine weitere Wordpress Seite."
 date: "2022-06-28"
-author: "Martin Jindra"
+author: ""
 aliases: []
 tags: []
 description: "Wordpress. Manche lieben es. Oder manche hassen es. Eines steht fest, es ist sehr weit verbreitet."

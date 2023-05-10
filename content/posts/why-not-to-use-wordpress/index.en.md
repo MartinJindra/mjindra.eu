@@ -1,7 +1,7 @@
 ---
 title: "Why Not to Use Wordpress"
 date: "2022-06-28"
-author: "Martin Jindra"
+author: ""
 aliases: []
 tags: []
 description: "Wordpress. Some love it. Or some hate it. One thing is for sure, it is very widely used."

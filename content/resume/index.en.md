@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-author: "Martin Jindra"
+author: ""
 aliases: ["/cv", "/resume"]
 tags: []
 summary: "resume"

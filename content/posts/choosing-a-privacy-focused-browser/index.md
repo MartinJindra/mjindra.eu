@@ -1,7 +1,7 @@
 ---
 title: "Welchen Browser ist gut für die Privatsphäre?"
 date: "2023-02-15T10:00:00+02:00"
-author: "Martin Jindra"
+author: ""
 aliases: ["/privacy"]
 tags: ["browsers", "privacy"]
 description: "Chrome. Ein Browser mit Milliarden von Benutzern."
